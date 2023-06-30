@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:paddingLeft="@dimen/_24dp"
+        android:paddingBottom="@dimen/_32dp"
+        android:paddingTop="@dimen/_32dp"
+        android:paddingRight="@dimen/_24dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:background="@drawable/circle_bg"
+            android:id="@+id/imageUser"
+            android:src="@drawable/user"
+            android:layout_width="@dimen/_100dp" android:layout_height="@dimen/_100dp" />
+
+
+   <LinearLayout
+       android:layout_width="0dp"
+       android:layout_marginHorizontal="@dimen/_12dp"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_gravity="center_vertical"
+       android:layout_weight="1">
+
+       <TextView
+           android:id="@+id/tvFullName"
+           android:textSize="@dimen/_18sp"
+           android:fontFamily="@font/manrope_semi_bold"
+           android:text="User Fullname"
+           android:textColor="@color/black"
+           android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+       <TextView
+           android:id="@+id/tvEmail"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="@font/manrope_medium"
+           android:text="xyz@email.com"
+           android:textColor="@color/aayo_profile_text_gray"
+           android:textSize="@dimen/_12sp" />
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_gray_8dp">
+
+        <ImageView
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:layout_margin="@dimen/_8dp"
+            android:src="@drawable/sign_out"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

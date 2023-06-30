@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_error_dialog"
+        android:layout_width="match_parent"
+        android:elevation="0dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/cv_close"
+                android:layout_margin="@dimen/dimen_5dp"
+                android:layout_width="@dimen/_48dp"
+                android:layout_alignParentEnd="true"
+                android:elevation="1dp"
+                android:gravity="center"
+                android:padding="@dimen/dimen_12dp"
+                android:layout_height="@dimen/_48dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_baseline_close_24"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="40dp">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="88dp"
+                    android:layout_height="88dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_dialog_shopping_cart" />
+
+                <TextView
+                    android:id="@+id/tv_dialog_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_22sp"
+                    android:fontFamily="@font/bold"
+                    android:text="You Cart Has Items"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_20sp"
+                     />
+
+                <TextView
+                    android:lineSpacingMultiplier="0.9"
+                    android:fontFamily="@font/regular"
+                    android:id="@+id/tv_dialog_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="You have remaining items in your cart from another restaurant.."
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/darker_gray"
+                    android:textSize="@dimen/_16sp" />
+
+                <LinearLayout
+                    android:id="@+id/btn_view_cart"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/error_dialog_view_card_background"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/btn_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="View Cart"
+                        android:textAllCaps="true"
+                        android:fontFamily="@font/medium"
+                        android:textColor="@android:color/holo_red_light" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

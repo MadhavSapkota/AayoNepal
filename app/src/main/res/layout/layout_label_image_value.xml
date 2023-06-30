@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_16dp"
+    android:paddingBottom="@dimen/_16dp"
+    >
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Label One"
+        android:textSize="@dimen/_18sp" />
+
+    <RelativeLayout
+        android:id="@+id/layoutValue"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12dp"
+        android:orientation="horizontal">R
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/icon"
+            android:layout_width="@dimen/_24dp"
+            android:layout_height="@dimen/_24dp"
+            android:src="@drawable/ic_cart" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/icon"
+            android:maxLines="2"
+            android:id="@+id/tvValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_12dp"
+            android:fontFamily="sans-serif"
+            android:text="Please select"
+            android:textSize="@dimen/_16sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

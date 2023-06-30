@@ -1,0 +1,1353 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="np.com.aayonepal.aayonepalcustomer"
+4    android:installLocation="auto"
+5    android:versionCode="55"
+6    android:versionName="5.5" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:7:5-81
+12-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:8:5-79
+13-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:9:5-79
+14-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:10:5-69
+15-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:10:22-66
+16    <uses-permission
+16-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:11:5-13:35
+17        android:name="android.permission.CHANGE_WIFI_STATE"
+17-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:12:9-60
+18        android:required="true" />
+18-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:13:9-32
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:14:5-67
+19-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:14:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:15:5-65
+20-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:15:22-62
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:16:5-66
+21-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:16:22-63
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:17:5-81
+22-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:17:22-78
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:18:5-71
+23-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:18:22-68
+24    <uses-permission android:name="android.permission.GET_TASKS" />
+24-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:19:5-68
+24-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:19:22-65
+25
+26    <queries>
+26-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:21:5-23:15
+27        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" /> <!-- allows app to access Facebook app features -->
+27-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:22:9-89
+27-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:22:19-86
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Require below permissions for reading sms and otp assist feature -->
+30-->[com.google.android.libraries.places:places:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b6deb628743f64a42793b0c283def024\jetified-places-2.3.0\AndroidManifest.xml:10:5-76
+30-->[com.google.android.libraries.places:places:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b6deb628743f64a42793b0c283def024\jetified-places-2.3.0\AndroidManifest.xml:10:22-73
+31    <!--
+32    <uses-permission android:name="android.permission.READ_SMS" />
+33    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+34    -->
+35    <uses-feature
+35-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:24:5-26:36
+36        android:name="android.hardware.telephony"
+36-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:25:9-50
+37        android:required="false" />
+37-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:26:9-33
+38    <uses-feature
+38-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\e914ad4fce278579f38f5971f3f82405\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+39        android:glEsVersion="0x00020000"
+39-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\e914ad4fce278579f38f5971f3f82405\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+40        android:required="true" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+40-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\e914ad4fce278579f38f5971f3f82405\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+41    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+42    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+42-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:8:3-74
+42-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:8:20-72
+43    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+44    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+44-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:28:5-79
+44-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:28:22-76
+45    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+45-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:24:5-68
+45-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:24:22-65
+46    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+46-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:26:5-82
+46-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:26:22-79
+47    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+47-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:5-110
+47-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
+48
+49    <uses-feature
+49-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:12:5-14:36
+50        android:name="android.hardware.camera"
+50-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:13:9-47
+51        android:required="false" />
+51-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:14:9-33
+52    <uses-feature
+52-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:15:5-17:36
+53        android:name="android.hardware.camera.autofocus"
+53-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:16:9-57
+54        android:required="false" />
+54-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:17:9-33
+55
+56    <application
+56-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:25:5-324:19
+57        android:name="com.ourdevelops.ourjek.constants.BaseApp"
+57-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:26:9-42
+58        android:allowBackup="true"
+58-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:27:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\3193e64b2900062d91307fbea2b735b4\core-1.5.0\AndroidManifest.xml:24:18-86
+60        android:debuggable="true"
+61        android:hardwareAccelerated="true"
+61-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:28:9-43
+62        android:icon="@mipmap/ic_launcher"
+62-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:29:9-43
+63        android:label="@string/app_name"
+63-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:30:9-41
+64        android:largeHeap="true"
+64-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:31:9-33
+65        android:networkSecurityConfig="@xml/network_security_config"
+65-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:32:9-69
+66        android:requestLegacyExternalStorage="true"
+66-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:33:9-52
+67        android:screenOrientation="portrait"
+67-->[com.github.prabhutechnology:epayment_SDK_android:1.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\7735b8ffb2b1bfa57a56494ca8b79715\jetified-epayment_SDK_android-1.5\AndroidManifest.xml:13:18-54
+68        android:supportsRtl="false"
+68-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:34:9-36
+69        android:theme="@style/AppTheme"
+69-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:35:9-40
+70        android:usesCleartextTraffic="false"
+70-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c45bdcb65e7fdf9b3ace212da82be4cc\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:17:18-54
+71        android:windowSoftInputMode="adjustPan" >
+71-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:30:9-48
+72        <activity
+72-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:37:9-40:51
+73            android:name="com.ourdevelops.ourjek.activity.edit_address.EditAddressActivity"
+73-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:38:13-70
+74            android:exported="false"
+74-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:39:13-37
+75            android:theme="@style/MainActivity" />
+75-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:40:13-48
+76        <activity
+76-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:41:9-44:51
+77            android:name="com.ourdevelops.ourjek.activity.my_address.MyAddressActivity"
+77-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:42:13-66
+78            android:exported="false"
+78-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:43:13-37
+79            android:theme="@style/MainActivity" />
+79-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:44:13-48
+80        <activity
+80-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:45:9-48:51
+81            android:name="com.ourdevelops.ourjek.activity.notification_settings.NotificationSettingsActivity"
+81-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:46:13-88
+82            android:exported="false"
+82-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:47:13-37
+83            android:theme="@style/MainActivity" />
+83-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:48:13-48
+84        <activity android:name="com.ourdevelops.ourjek.activity.logistic.payment.LogisticPaymentActivity" />
+84-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:49:9-87
+84-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:49:19-84
+85        <activity
+85-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:50:9-52:58
+86            android:name="com.ourdevelops.ourjek.activity.logistic.item_detail.LogisticItemDetailActivity"
+86-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:51:13-85
+87            android:windowSoftInputMode="adjustResize" />
+87-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:52:13-55
+88        <activity
+88-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:53:9-55:58
+89            android:name="com.ourdevelops.ourjek.activity.logistic.logistic_detail.LogisticDetailActivity"
+89-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:54:13-85
+90            android:windowSoftInputMode="adjustResize" />
+90-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:55:13-55
+91        <activity
+91-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:56:9-58:58
+92            android:name="com.ourdevelops.ourjek.activity.logistic.LogisticActivity"
+92-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:57:13-63
+93            android:windowSoftInputMode="adjustResize" />
+93-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:58:13-55
+94        <activity android:name="com.ourdevelops.ourjek.activity.new_logistic.NewLogisticActivity" />
+94-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:59:9-79
+94-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:59:19-76
+95        <activity android:name="com.ourdevelops.ourjek.activity.chat.MessageActivity" />
+95-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:60:9-67
+95-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:60:19-64
+96        <activity android:name="com.ourdevelops.ourjek.activity.new_merchant.NewMerchantActivity" />
+96-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:61:9-79
+96-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:61:19-76
+97        <activity android:name="com.ourdevelops.ourjek.activity.notification.NewNotificationActivity" />
+97-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:62:9-83
+97-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:62:19-80
+98        <activity android:name="com.ourdevelops.ourjek.activity.forgot_password.VerifyForgotPasswordActivity" />
+98-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:63:9-91
+98-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:63:19-88
+99        <activity android:name="com.ourdevelops.ourjek.activity.VerifycodeActivity" />
+99-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:64:9-65
+99-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:64:19-62
+100        <activity
+100-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:65:9-68:58
+101            android:name="com.ourdevelops.ourjek.activity.NewDetailMerchantActivity"
+101-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:66:13-63
+102            android:theme="@style/AppTheme"
+102-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:67:13-44
+103            android:windowSoftInputMode="adjustResize" />
+103-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:68:13-55
+104        <activity android:name="com.ourdevelops.ourjek.activity.NewAllMerchantActivity" />
+104-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:69:9-69
+104-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:69:19-66
+105        <activity
+105-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:70:9-73:73
+106            android:name="com.ourdevelops.ourjek.activity.PromoActivity"
+106-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:71:13-51
+107            android:screenOrientation="portrait"
+107-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:72:13-49
+108            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+108-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:73:13-70
+109        <activity
+109-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:74:9-77:73
+110            android:name="com.ourdevelops.ourjek.activity.MapsMerchantActivity"
+110-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:75:13-58
+111            android:screenOrientation="portrait"
+111-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:76:13-49
+112            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+112-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:77:13-70
+113        <activity
+113-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:78:9-81:73
+114            android:name="com.ourdevelops.ourjek.activity.DetailMerchantActivity"
+114-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:79:13-60
+115            android:screenOrientation="portrait"
+115-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:80:13-49
+116            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+116-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:81:13-70
+117        <activity
+117-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:82:9-85:73
+118            android:name="com.ourdevelops.ourjek.activity.PicklocationActivity"
+118-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:83:13-58
+119            android:screenOrientation="portrait"
+119-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:84:13-49
+120            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+120-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:85:13-70
+121        <activity
+121-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:86:9-89:73
+122            android:name="com.ourdevelops.ourjek.activity.allmerchant.AllMerchantActivity"
+122-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:87:13-69
+123            android:screenOrientation="portrait"
+123-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:88:13-49
+124            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+124-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:89:13-70
+125        <activity
+125-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:90:9-93:73
+126            android:name="com.ourdevelops.ourjek.activity.AllBeritaActivity"
+126-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:91:13-55
+127            android:screenOrientation="portrait"
+127-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:92:13-49
+128            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+128-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:93:13-70
+129        <activity
+129-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:94:9-97:73
+130            android:name="com.ourdevelops.ourjek.activity.WalletActivity"
+130-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:95:13-52
+131            android:screenOrientation="portrait"
+131-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:96:13-49
+132            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+132-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:97:13-70
+133        <activity
+133-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:98:9-100:52
+134            android:name="com.ourdevelops.ourjek.activity.chat.ChatActivity"
+134-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:99:13-55
+135            android:screenOrientation="portrait" />
+135-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:100:13-49
+136
+137        <service
+137-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:102:9-109:19
+138            android:name="com.ourdevelops.ourjek.utils.api.service.MessagingService"
+138-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:103:13-63
+139            android:enabled="true"
+139-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:104:13-35
+140            android:exported="true" >
+140-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:105:13-36
+141            <intent-filter>
+141-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:106:13-108:29
+142                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+142-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:107:17-78
+142-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:107:25-75
+143            </intent-filter>
+144        </service>
+145
+146        <meta-data
+146-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:111:9-113:54
+147            android:name="com.google.firebase.messaging.default_notification_icon"
+147-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:112:13-83
+148            android:resource="@mipmap/ic_launcher" />
+148-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:113:13-51
+149        <!--
+150 Set color used with incoming notification messages. This is used when no color is set for the incoming
+151             notification message. See README(https://goo.gl/6BKBk7) for more.
+152        -->
+153        <meta-data
+153-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:118:9-120:54
+154            android:name="com.google.firebase.messaging.default_notification_color"
+154-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:119:13-84
+155            android:resource="@color/colorPrimary" />
+155-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:120:13-51
+156
+157        <activity
+157-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:122:9-126:73
+158            android:name="com.ourdevelops.ourjek.activity.RateActivity"
+158-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:123:13-50
+159            android:screenOrientation="portrait"
+159-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:124:13-49
+160            android:theme="@style/Login_phone"
+160-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:125:13-47
+161            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+161-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:126:13-70
+162        <activity
+162-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:127:9-131:73
+163            android:name="com.ourdevelops.ourjek.activity.CreditcardActivity"
+163-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:128:13-56
+164            android:screenOrientation="portrait"
+164-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:129:13-49
+165            android:theme="@style/Login_phone"
+165-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:130:13-47
+166            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+166-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:131:13-70
+167        <activity
+167-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:132:9-136:73
+168            android:name="com.ourdevelops.ourjek.activity.WithdrawActivity"
+168-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:133:13-54
+169            android:screenOrientation="portrait"
+169-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:134:13-49
+170            android:theme="@style/Login_phone"
+170-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:135:13-47
+171            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+171-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:136:13-70
+172        <activity
+172-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:137:9-146:20
+173            android:name="com.ourdevelops.ourjek.activity.SplashActivity"
+173-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:138:13-52
+174            android:noHistory="true"
+174-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:139:13-37
+175            android:theme="@style/AppTheme" >
+175-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:140:13-44
+176            <intent-filter>
+176-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:141:13-145:29
+177                <action android:name="android.intent.action.MAIN" />
+177-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:142:17-69
+177-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:142:25-66
+178
+179                <category android:name="android.intent.category.LAUNCHER" />
+179-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:144:17-77
+179-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:144:27-74
+180            </intent-filter>
+181        </activity>
+182        <activity
+182-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:147:9-149:52
+183            android:name="com.ourdevelops.ourjek.activity.IntroActivity"
+183-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:148:13-51
+184            android:screenOrientation="portrait" />
+184-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:149:13-49
+185        <activity
+185-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:150:9-152:52
+186            android:name="com.ourdevelops.ourjek.activity.BeritaDetailActivity"
+186-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:151:13-58
+187            android:screenOrientation="portrait" />
+187-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:152:13-49
+188        <activity
+188-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:153:9-156:58
+189            android:name="com.ourdevelops.ourjek.activity.TopupSaldoActivity"
+189-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:154:13-56
+190            android:screenOrientation="portrait"
+190-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:155:13-49
+191            android:windowSoftInputMode="adjustResize" />
+191-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:156:13-55
+192        <activity
+192-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:157:9-159:52
+193            android:name="com.ourdevelops.ourjek.activity.RideCarActivity"
+193-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:158:13-53
+194            android:screenOrientation="portrait" />
+194-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:159:13-49
+195        <activity
+195-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:160:9-162:52
+196            android:name="com.ourdevelops.ourjek.activity.RentCarActivity"
+196-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:161:13-53
+197            android:screenOrientation="portrait" />
+197-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:162:13-49
+198        <activity
+198-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:163:9-165:52
+199            android:name="com.ourdevelops.ourjek.activity.SendActivity"
+199-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:164:13-50
+200            android:screenOrientation="portrait" />
+200-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:165:13-49
+201        <activity
+201-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:166:9-168:52
+202            android:name="com.ourdevelops.ourjek.activity.SendDetailActivity"
+202-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:167:13-56
+203            android:screenOrientation="portrait" />
+203-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:168:13-49
+204        <activity
+204-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:169:9-172:50
+205            android:name="com.ourdevelops.ourjek.activity.ProgressActivity"
+205-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:170:13-54
+206            android:screenOrientation="portrait"
+206-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:171:13-49
+207            android:theme="@style/MainActivity" />
+207-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:172:13-48
+208        <activity
+208-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:173:9-176:50
+209            android:name="com.ourdevelops.ourjek.activity.PrivacyActivity"
+209-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:174:13-53
+210            android:screenOrientation="portrait"
+210-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:175:13-49
+211            android:theme="@style/noActionBar" />
+211-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:176:13-47
+212        <activity
+212-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:177:9-181:58
+213            android:name="com.ourdevelops.ourjek.activity.RegisterActivity"
+213-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:178:13-54
+214            android:screenOrientation="portrait"
+214-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:179:13-49
+215            android:theme="@style/MainActivity"
+215-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:180:13-48
+216            android:windowSoftInputMode="adjustResize" />
+216-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:181:13-55
+217        <activity
+217-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:182:9-186:58
+218            android:name="com.ourdevelops.ourjek.activity.EditProfileActivity"
+218-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:183:13-57
+219            android:screenOrientation="portrait"
+219-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:184:13-49
+220            android:theme="@style/MainActivity"
+220-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:185:13-48
+221            android:windowSoftInputMode="adjustResize" />
+221-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:186:13-55
+222        <activity
+222-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:187:9-191:58
+223            android:name="com.ourdevelops.ourjek.activity.LoginActivity"
+223-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:188:13-51
+224            android:screenOrientation="portrait"
+224-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:189:13-49
+225            android:theme="@style/MainActivity"
+225-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:190:13-48
+226            android:windowSoftInputMode="adjustResize" />
+226-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:191:13-55
+227        <activity
+227-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:192:9-196:58
+228            android:name="com.ourdevelops.ourjek.activity.forgot_password.LupapassActivity"
+228-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:193:13-70
+229            android:screenOrientation="portrait"
+229-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:194:13-49
+230            android:theme="@style/Login_phone"
+230-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:195:13-47
+231            android:windowSoftInputMode="adjustResize" />
+231-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:196:13-55
+232        <activity
+232-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:197:9-201:58
+233            android:name="com.ourdevelops.ourjek.activity.ChangepassActivity"
+233-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:198:13-56
+234            android:screenOrientation="portrait"
+234-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:199:13-49
+235            android:theme="@style/MainActivity"
+235-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:200:13-48
+236            android:windowSoftInputMode="adjustResize" />
+236-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:201:13-55
+237        <activity
+237-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:202:9-205:47
+238            android:name="com.ourdevelops.ourjek.activity.landing.MainActivity"
+238-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:203:13-58
+239            android:screenOrientation="portrait"
+239-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:204:13-49
+240            android:theme="@style/AppTheme" />
+240-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:205:13-44
+241        <activity android:name="com.ourdevelops.ourjek.activity.cart.checkout.CheckoutActivity" />
+241-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:206:9-77
+241-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:206:19-74
+242        <activity android:name="com.ourdevelops.ourjek.activity.NewRideCarActivity" />
+242-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:207:9-65
+242-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:207:19-62
+243        <activity android:name="com.ourdevelops.ourjek.activity.MApActivity" />
+243-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:208:9-58
+243-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:208:19-55
+244        <activity android:name="com.ourdevelops.ourjek.activity.LanguageChooseActivity" />
+244-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:209:9-69
+244-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:209:19-66
+245        <activity
+245-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:210:9-218:20
+246            android:name="com.ourdevelops.ourjek.activity.DriverDetailActivity"
+246-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:211:13-58
+247            android:theme="@style/AppTheme" >
+247-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:212:13-44
+248            <intent-filter>
+248-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:213:13-217:29
+249                <action android:name="transparent.text.SECONDACTIVITY" />
+249-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:214:17-74
+249-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:214:25-71
+250
+251                <category android:name="android.intent.category.DEFAULT" />
+251-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:17-76
+251-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:27-73
+252            </intent-filter>
+253        </activity>
+254        <activity android:name="com.ourdevelops.ourjek.activity.BookRideAcivity" />
+254-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:219:9-62
+254-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:219:19-59
+255        <activity
+255-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:220:9-222:58
+256            android:name="com.ourdevelops.ourjek.activity.cart.NewDetailOrderActivity"
+256-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:221:13-65
+257            android:windowSoftInputMode="adjustResize" />
+257-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:222:13-55
+258        <activity android:name="com.ourdevelops.ourjek.activity.NotificationActivity" />
+258-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:223:9-67
+258-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:223:19-64
+259        <activity android:name="com.ourdevelops.ourjek.activity.NewBookRideActivity" />
+259-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:224:9-66
+259-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:224:19-63
+260        <activity android:name="com.ourdevelops.ourjek.activity.ride_progress.NewRideProgressActivity" />
+260-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:225:9-84
+260-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:225:19-81
+261        <activity android:name="com.ourdevelops.ourjek.fragment.FavouriteActivity" />
+261-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:226:9-64
+261-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:226:19-61
+262
+263        <meta-data
+263-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:228:9-230:55
+264            android:name="com.google.android.geo.API_KEY"
+264-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:229:13-58
+265            android:value="@string/google_maps_key" /> <!-- <meta-data -->
+265-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:230:13-52
+266        <!-- android:name="keyValue" -->
+267        <!-- android:value="@string/google_maps_key" /> -->
+268        <!-- <provider -->
+269        <!-- android:name="androidx.core.content.FileProvider" -->
+270        <!-- android:authorities="np.com.pickme.fileprovider" -->
+271        <!-- android:exported="false" -->
+272        <!-- android:grantUriPermissions="true"> -->
+273        <!-- <meta-data -->
+274        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+275        <!-- android:resource="@xml/file_paths" /> -->
+276        <!-- </provider> -->
+277        <meta-data
+277-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:242:9-244:55
+278            android:name="com.facebook.sdk.ApplicationId"
+278-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:243:13-58
+279            android:value="@string/facebook_app_id" />
+279-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:244:13-52
+280        <meta-data
+280-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:245:9-247:61
+281            android:name="com.facebook.sdk.ClientToken"
+281-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:246:13-56
+282            android:value="@string/facebook_client_token" />
+282-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:247:13-58
+283
+284        <activity
+284-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:249:9-252:48
+285            android:name="com.facebook.FacebookActivity"
+285-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:250:13-57
+286            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+286-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:251:13-96
+287            android:label="@string/app_name"
+287-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:252:13-45
+288            android:theme="@style/com_facebook_activity_theme" />
+288-->[com.facebook.android:facebook-common:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0871a3a2c250d84673bec9e9d6df2bce\jetified-facebook-common-13.2.0\AndroidManifest.xml:33:13-63
+289        <activity
+289-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:253:9-264:20
+290            android:name="com.facebook.CustomTabActivity"
+290-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:254:13-58
+291            android:exported="true" >
+291-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:255:13-36
+292            <intent-filter>
+292-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:256:13-263:29
+293                <action android:name="android.intent.action.VIEW" />
+293-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:17-69
+293-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:25-66
+294
+295                <category android:name="android.intent.category.DEFAULT" />
+295-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:17-76
+295-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:27-73
+296                <category android:name="android.intent.category.BROWSABLE" />
+296-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:17-78
+296-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:27-75
+297
+298                <data android:scheme="@string/fb_login_protocol_scheme" />
+298-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:17-75
+298-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:23-72
+299            </intent-filter>
+300            <intent-filter>
+300-->[com.facebook.android:facebook-common:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0871a3a2c250d84673bec9e9d6df2bce\jetified-facebook-common-13.2.0\AndroidManifest.xml:39:13-48:29
+301                <action android:name="android.intent.action.VIEW" />
+301-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:17-69
+301-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:25-66
+302
+303                <category android:name="android.intent.category.DEFAULT" />
+303-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:17-76
+303-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:27-73
+304                <category android:name="android.intent.category.BROWSABLE" />
+304-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:17-78
+304-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:27-75
+305
+306                <data
+306-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:17-75
+307                    android:host="cct.np.com.aayonepal.aayonepalcustomer"
+308                    android:scheme="fbconnect" />
+308-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:23-72
+309            </intent-filter>
+310        </activity>
+311        <activity android:name="com.ourdevelops.ourjek.activity.ItemDetailActivity" >
+311-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:265:9-271:20
+311-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:265:19-62
+312            <intent-filter>
+312-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:213:13-217:29
+313                <action android:name="transparent.text.SECONDACTIVITY" />
+313-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:214:17-74
+313-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:214:25-71
+314
+315                <category android:name="android.intent.category.DEFAULT" />
+315-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:17-76
+315-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:27-73
+316            </intent-filter>
+317        </activity>
+318        <activity android:name="com.ourdevelops.ourjek.service.location_service.LocationPickerActivity" />
+318-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:272:9-85
+318-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:272:19-82
+319        <activity android:name="com.ourdevelops.ourjek.fragment.EnableLocationFragment" />
+319-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:273:9-69
+319-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:273:19-66
+320        <activity android:name="com.ourdevelops.ourjek.activity.riderequest.NewRiderRequestActivity" />
+320-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:274:9-82
+320-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:274:19-79
+321        <activity android:name="com.ourdevelops.ourjek.activity.save_address.SaveUserAddressActivity" />
+321-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:275:9-83
+321-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:275:19-80
+322        <activity android:name="com.ourdevelops.ourjek.activity.imepay.ImePayActivity" />
+322-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:276:9-68
+322-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:276:19-65
+323
+324        <service
+324-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:278:9-280:38
+325            android:name="com.ourdevelops.ourjek.service.ride_request.RideRequestService"
+325-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:279:13-68
+326            android:enabled="true" />
+326-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:280:13-35
+327        <service
+327-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:281:9-283:38
+328            android:name="com.ourdevelops.ourjek.service.cart_service.CartService"
+328-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:282:13-61
+329            android:enabled="true" />
+329-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:283:13-35
+330        <service
+330-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:284:9-286:38
+331            android:name="com.ourdevelops.ourjek.service.customer_status_service.CustomerStatusService"
+331-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:285:13-82
+332            android:enabled="true" />
+332-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:286:13-35
+333
+334        <receiver
+334-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:288:9-295:20
+335            android:name="com.ourdevelops.ourjek.service.LocationBroadCastReceiver"
+335-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:289:13-62
+336            android:process=":locationprocess" >
+336-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:290:13-47
+337            <intent-filter>
+337-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:292:13-294:29
+338                <action android:name="locationReceived" />
+338-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:293:17-59
+338-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:293:25-56
+339            </intent-filter>
+340        </receiver>
+341        <receiver
+341-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:296:9-303:20
+342            android:name="com.ourdevelops.ourjek.service.RideRequestBroadCastReceiver"
+342-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:297:13-65
+343            android:process=":rideReceiver" >
+343-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:298:13-44
+344            <intent-filter>
+344-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:300:13-302:29
+345                <action android:name="rideReceiver" />
+345-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:301:17-55
+345-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:301:25-52
+346            </intent-filter>
+347        </receiver>
+348        <receiver
+348-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:304:9-310:20
+349            android:name="com.ourdevelops.ourjek.service.CustomerStatusBroadcastReceiver"
+349-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:305:13-68
+350            android:process=":customerStatusReceiver" >
+350-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:306:13-54
+351            <intent-filter>
+351-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:307:13-309:29
+352                <action android:name="customerStatusReceiver" />
+352-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:308:17-65
+352-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:308:25-62
+353            </intent-filter>
+354        </receiver>
+355        <receiver android:name="com.ourdevelops.ourjek.service.DriverLocationBroadcast" >
+355-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:311:9-315:20
+355-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:311:19-66
+356            <intent-filter>
+356-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:312:13-314:29
+357                <action android:name="driverLocationReceiver" />
+357-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:313:17-65
+357-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:313:25-62
+358            </intent-filter>
+359        </receiver>
+360
+361        <service
+361-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:317:9-319:38
+362            android:name="com.ourdevelops.ourjek.service.location_service.LocationService"
+362-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:318:13-69
+363            android:enabled="true" />
+363-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:319:13-35
+364
+365        <uses-library
+365-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:321:9-323:40
+366            android:name="org.apache.http.legacy"
+366-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:322:13-50
+367            android:required="false" />
+367-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:323:13-37
+368
+369        <activity
+369-->[com.google.android.libraries.places:places:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b6deb628743f64a42793b0c283def024\jetified-places-2.3.0\AndroidManifest.xml:14:9-20:20
+370            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+370-->[com.google.android.libraries.places:places:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b6deb628743f64a42793b0c283def024\jetified-places-2.3.0\AndroidManifest.xml:15:13-91
+371            android:exported="false"
+371-->[com.google.android.libraries.places:places:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b6deb628743f64a42793b0c283def024\jetified-places-2.3.0\AndroidManifest.xml:16:13-37
+372            android:label="@string/places_autocomplete_label"
+372-->[com.google.android.libraries.places:places:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b6deb628743f64a42793b0c283def024\jetified-places-2.3.0\AndroidManifest.xml:17:13-62
+373            android:theme="@style/PlacesAutocompleteOverlay"
+373-->[com.google.android.libraries.places:places:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b6deb628743f64a42793b0c283def024\jetified-places-2.3.0\AndroidManifest.xml:18:13-61
+374            android:windowSoftInputMode="adjustResize" >
+374-->[com.google.android.libraries.places:places:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b6deb628743f64a42793b0c283def024\jetified-places-2.3.0\AndroidManifest.xml:19:13-55
+375        </activity>
+376        <activity
+376-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:19:9-24:55
+377            android:name="com.payumoney.sdkui.ui.activities.PayUmoneyActivity"
+377-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:20:13-79
+378            android:label="@string/title_activity_citrus"
+378-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:21:13-58
+379            android:screenOrientation="portrait"
+379-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:22:13-49
+380            android:theme="@style/PayumoneyAppTheme"
+380-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:23:13-53
+381            android:windowSoftInputMode="adjustPan" />
+381-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:24:13-52
+382        <activity
+382-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:25:9-28:56
+383            android:name="com.payumoney.sdkui.ui.activities.ReviewOrderActivity"
+383-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:26:13-81
+384            android:screenOrientation="portrait"
+384-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:27:13-49
+385            android:theme="@style/PayumoneyAppTheme" />
+385-->[com.payumoney.sdkui:plug-n-play:1.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23b1cc43b975db20b3370bb1a8a36918\jetified-plug-n-play-1.6.0\AndroidManifest.xml:28:13-53
+386        <activity
+386-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:31:9-34:72
+387            android:name="com.payumoney.core.SdkWebViewActivityNew"
+387-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:32:13-68
+388            android:screenOrientation="portrait"
+388-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:33:13-49
+389            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+389-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:34:13-69
+390        <activity
+390-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:35:9-40:59
+391            android:name="com.payu.custombrowser.CBActivity"
+391-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:36:13-61
+392            android:screenOrientation="portrait"
+392-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:37:13-49
+393            android:theme="@style/Theme.AppCompat"
+393-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:38:13-51
+394            android:windowSoftInputMode="stateAlwaysHidden" />
+394-->[com.payumoney.core:payumoney-sdk:7.6.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\4aef51bddc609f2f8686bee29042778a\jetified-payumoney-sdk-7.6.0\AndroidManifest.xml:39:13-60
+395
+396        <service
+396-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c0f2fc799e738b67d277324703c832ae\jetified-firebase-database-19.5.1\AndroidManifest.xml:29:9-35:19
+397            android:name="com.google.firebase.components.ComponentDiscoveryService"
+397-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c0f2fc799e738b67d277324703c832ae\jetified-firebase-database-19.5.1\AndroidManifest.xml:30:13-84
+398            android:directBootAware="true"
+398-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\d244aa1736c822e0f287bacd27d3e45a\jetified-firebase-common-19.4.0\AndroidManifest.xml:35:13-43
+399            android:exported="false" >
+399-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c0f2fc799e738b67d277324703c832ae\jetified-firebase-database-19.5.1\AndroidManifest.xml:31:13-37
+400            <meta-data
+400-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c0f2fc799e738b67d277324703c832ae\jetified-firebase-database-19.5.1\AndroidManifest.xml:32:13-34:85
+401                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+401-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c0f2fc799e738b67d277324703c832ae\jetified-firebase-database-19.5.1\AndroidManifest.xml:33:17-109
+402                android:value="com.google.firebase.components.ComponentRegistrar" />
+402-->[com.google.firebase:firebase-database:19.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c0f2fc799e738b67d277324703c832ae\jetified-firebase-database-19.5.1\AndroidManifest.xml:34:17-82
+403            <meta-data
+403-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\68c9f34ae32a49432e5c0512dd652348\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+404                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+404-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\68c9f34ae32a49432e5c0512dd652348\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+405                android:value="com.google.firebase.components.ComponentRegistrar" />
+405-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\68c9f34ae32a49432e5c0512dd652348\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+406            <meta-data
+406-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\540df33e7f87a6050a244300c15a8eee\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:39:13-41:85
+407                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+407-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\540df33e7f87a6050a244300c15a8eee\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:40:17-119
+408                android:value="com.google.firebase.components.ComponentRegistrar" />
+408-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\540df33e7f87a6050a244300c15a8eee\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:41:17-82
+409            <meta-data
+409-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:77:13-79:85
+410                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+410-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:78:17-109
+411                android:value="com.google.firebase.components.ComponentRegistrar" />
+411-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:79:17-82
+412            <meta-data
+412-->[com.google.firebase:firebase-crashlytics-ktx:17.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\77a7ceb9bc5aa20c4e6f4ece8c2d6c45\jetified-firebase-crashlytics-ktx-17.3.0\AndroidManifest.xml:27:13-29:85
+413                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+413-->[com.google.firebase:firebase-crashlytics-ktx:17.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\77a7ceb9bc5aa20c4e6f4ece8c2d6c45\jetified-firebase-crashlytics-ktx-17.3.0\AndroidManifest.xml:28:17-130
+414                android:value="com.google.firebase.components.ComponentRegistrar" />
+414-->[com.google.firebase:firebase-crashlytics-ktx:17.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\77a7ceb9bc5aa20c4e6f4ece8c2d6c45\jetified-firebase-crashlytics-ktx-17.3.0\AndroidManifest.xml:29:17-82
+415            <meta-data
+415-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\e362021418b6fdc1be614a187505f49b\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:18:13-20:85
+416                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+416-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\e362021418b6fdc1be614a187505f49b\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:19:17-115
+417                android:value="com.google.firebase.components.ComponentRegistrar" />
+417-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\e362021418b6fdc1be614a187505f49b\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:20:17-82
+418            <meta-data
+418-->[com.google.firebase:firebase-analytics-ktx:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b2451f7f473140bf8730fb252f39f273\jetified-firebase-analytics-ktx-18.0.0\AndroidManifest.xml:11:13-13:85
+419                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+419-->[com.google.firebase:firebase-analytics-ktx:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b2451f7f473140bf8730fb252f39f273\jetified-firebase-analytics-ktx-18.0.0\AndroidManifest.xml:12:17-126
+420                android:value="com.google.firebase.components.ComponentRegistrar" />
+420-->[com.google.firebase:firebase-analytics-ktx:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\b2451f7f473140bf8730fb252f39f273\jetified-firebase-analytics-ktx-18.0.0\AndroidManifest.xml:13:17-82
+421            <meta-data
+421-->[com.google.firebase:firebase-common-ktx:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\80abb1e1d1a1217da4bad317846656af\jetified-firebase-common-ktx-19.4.0\AndroidManifest.xml:15:13-17:85
+422                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+422-->[com.google.firebase:firebase-common-ktx:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\80abb1e1d1a1217da4bad317846656af\jetified-firebase-common-ktx-19.4.0\AndroidManifest.xml:16:17-113
+423                android:value="com.google.firebase.components.ComponentRegistrar" />
+423-->[com.google.firebase:firebase-common-ktx:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\80abb1e1d1a1217da4bad317846656af\jetified-firebase-common-ktx-19.4.0\AndroidManifest.xml:17:17-82
+424            <meta-data
+424-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\a2cffb8156956e1fa4ecc5dcb4d7d145\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+425                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+425-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\a2cffb8156956e1fa4ecc5dcb4d7d145\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+426                android:value="com.google.firebase.components.ComponentRegistrar" />
+426-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\a2cffb8156956e1fa4ecc5dcb4d7d145\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+427            <meta-data
+427-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:32:13-34:85
+428                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+428-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:33:17-96
+429                android:value="com.google.firebase.components.ComponentRegistrar" />
+429-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:34:17-82
+430            <meta-data
+430-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\e0951af3eaeb2e0036e30672cd2aae63\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:30:13-32:85
+431                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+431-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\e0951af3eaeb2e0036e30672cd2aae63\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:31:17-139
+432                android:value="com.google.firebase.components.ComponentRegistrar" />
+432-->[com.google.android.gms:play-services-measurement-api:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\e0951af3eaeb2e0036e30672cd2aae63\jetified-play-services-measurement-api-18.0.0\AndroidManifest.xml:32:17-82
+433            <meta-data
+433-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f40dbffa8ffd1e165bd7984c3760127e\jetified-firebase-installations-16.3.4\AndroidManifest.xml:18:13-20:85
+434                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+434-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f40dbffa8ffd1e165bd7984c3760127e\jetified-firebase-installations-16.3.4\AndroidManifest.xml:19:17-127
+435                android:value="com.google.firebase.components.ComponentRegistrar" />
+435-->[com.google.firebase:firebase-installations:16.3.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f40dbffa8ffd1e165bd7984c3760127e\jetified-firebase-installations-16.3.4\AndroidManifest.xml:20:17-82
+436        </service>
+437        <!--
+438             FirebaseMessagingService performs security checks at runtime,
+439             but set to not exported to explicitly avoid allowing another app to call it.
+440        -->
+441        <service
+441-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\540df33e7f87a6050a244300c15a8eee\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:28:9-35:19
+442            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+442-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\540df33e7f87a6050a244300c15a8eee\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:29:13-82
+443            android:directBootAware="true"
+443-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\540df33e7f87a6050a244300c15a8eee\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:30:13-43
+444            android:exported="false" >
+444-->[com.google.firebase:firebase-messaging:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\540df33e7f87a6050a244300c15a8eee\jetified-firebase-messaging-21.0.0\AndroidManifest.xml:31:13-37
+445            <intent-filter android:priority="-500" >
+445-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:106:13-108:29
+446                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+446-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:107:17-78
+446-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:107:25-75
+447            </intent-filter>
+448        </service>
+449
+450        <activity
+450-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:27:9-44:20
+451            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+451-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:28:13-80
+452            android:excludeFromRecents="true"
+452-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:29:13-46
+453            android:exported="true"
+453-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:30:13-36
+454            android:launchMode="singleTask"
+454-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:31:13-44
+455            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+455-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:32:13-72
+456            <intent-filter>
+456-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:33:13-43:29
+457                <action android:name="android.intent.action.VIEW" />
+457-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:17-69
+457-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:25-66
+458
+459                <category android:name="android.intent.category.DEFAULT" />
+459-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:17-76
+459-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:27-73
+460                <category android:name="android.intent.category.BROWSABLE" />
+460-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:17-78
+460-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:27-75
+461
+462                <data
+462-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:17-75
+463                    android:host="firebase.auth"
+464                    android:path="/"
+465                    android:scheme="genericidp" />
+465-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:23-72
+466            </intent-filter>
+467        </activity>
+468        <activity
+468-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:45:9-62:20
+469            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+469-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:46:13-79
+470            android:excludeFromRecents="true"
+470-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:47:13-46
+471            android:exported="true"
+471-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:48:13-36
+472            android:launchMode="singleTask"
+472-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:49:13-44
+473            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+473-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:50:13-72
+474            <intent-filter>
+474-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:51:13-61:29
+475                <action android:name="android.intent.action.VIEW" />
+475-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:17-69
+475-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:25-66
+476
+477                <category android:name="android.intent.category.DEFAULT" />
+477-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:17-76
+477-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:27-73
+478                <category android:name="android.intent.category.BROWSABLE" />
+478-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:17-78
+478-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:27-75
+479
+480                <data
+480-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:17-75
+481                    android:host="firebase.auth"
+482                    android:path="/"
+483                    android:scheme="recaptcha" />
+483-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:23-72
+484            </intent-filter>
+485        </activity>
+486
+487        <service
+487-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:64:9-73:19
+488            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+488-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:65:13-101
+489            android:enabled="true"
+489-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:66:13-35
+490            android:exported="false" >
+490-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:67:13-37
+491            <intent-filter>
+491-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:68:13-72:29
+492                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+492-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:17-89
+492-->[com.google.firebase:firebase-auth:20.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\9cd5cc4d74692a59ec668a0a61a82e05\jetified-firebase-auth-20.0.1\AndroidManifest.xml:69:25-86
+493
+494                <category android:name="android.intent.category.DEFAULT" />
+494-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:17-76
+494-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:27-73
+495            </intent-filter>
+496        </service> <!-- The activities will be merged into the manifest of the hosting app. -->
+497        <activity
+497-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:12:5-271
+498            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+498-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:12:15-102
+499            android:enabled="false"
+499-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:12:103-126
+500            android:exported="false"
+500-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:12:127-151
+501            android:launchMode="singleInstance"
+501-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:12:204-239
+502            android:process=":playcore_missing_splits_activity"
+502-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:12:152-203
+503            android:stateNotNeeded="true" />
+503-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:12:240-269
+504        <activity
+504-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:13:5-226
+505            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+505-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:13:15-95
+506            android:enabled="false"
+506-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:13:96-119
+507            android:exported="false"
+507-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:13:120-144
+508            android:stateNotNeeded="true"
+508-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:13:145-174
+509            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+509-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:13:175-224
+510        <service
+510-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:16:5-18:15
+511            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+511-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:16:14-95
+512            android:enabled="false"
+512-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:16:96-119
+513            android:exported="true" >
+513-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:16:120-143
+514            <meta-data
+514-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:17:7-108
+515                android:name="com.google.android.play.core.assetpacks.versionCode"
+515-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:17:18-84
+516                android:value="11000" />
+516-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:17:85-106
+517        </service>
+518        <service
+518-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:19:5-147
+519            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+519-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:19:14-96
+520            android:enabled="false"
+520-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:19:97-120
+521            android:exported="false" />
+521-->[com.google.android.play:core:1.10.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\f2814c333b784727abdb0628c7f39cb8\jetified-core-1.10.0\AndroidManifest.xml:19:121-145
+522
+523        <activity
+523-->[com.github.prabhutechnology:epayment_SDK_android:1.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\7735b8ffb2b1bfa57a56494ca8b79715\jetified-epayment_SDK_android-1.5\AndroidManifest.xml:14:9-17:52
+524            android:name="com.prabhutech.prabhupay_sdk.activity.EpaymentLoginActivity"
+524-->[com.github.prabhutechnology:epayment_SDK_android:1.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\7735b8ffb2b1bfa57a56494ca8b79715\jetified-epayment_SDK_android-1.5\AndroidManifest.xml:15:13-87
+525            android:configChanges="orientation|screenSize|density|screenLayout|uiMode|fontScale"
+525-->[com.github.prabhutechnology:epayment_SDK_android:1.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\7735b8ffb2b1bfa57a56494ca8b79715\jetified-epayment_SDK_android-1.5\AndroidManifest.xml:16:13-97
+526            android:screenOrientation="portrait" />
+526-->[com.github.prabhutechnology:epayment_SDK_android:1.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\7735b8ffb2b1bfa57a56494ca8b79715\jetified-epayment_SDK_android-1.5\AndroidManifest.xml:17:13-49
+527        <activity
+527-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:15:9-17:66
+528            android:name="net.alhazmy13.mediapicker.Image.ImageActivity"
+528-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:16:13-73
+529            android:theme="@style/Theme.AppCompat.Translucent" />
+529-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:17:13-63
+530        <activity
+530-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:18:9-20:66
+531            android:name="net.alhazmy13.mediapicker.Video.VideoActivity"
+531-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:19:13-73
+532            android:theme="@style/Theme.AppCompat.Translucent" />
+532-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:20:13-63
+533
+534        <provider
+534-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:22:9-30:20
+535            android:name="androidx.core.content.FileProvider"
+535-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:23:13-62
+536            android:authorities="np.com.aayonepal.aayonepalcustomer.provider"
+536-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:24:13-60
+537            android:exported="false"
+537-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:25:13-37
+538            android:grantUriPermissions="true" >
+538-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:26:13-47
+539            <meta-data
+539-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:27:13-29:58
+540                android:name="android.support.FILE_PROVIDER_PATHS"
+540-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:28:17-67
+541                android:resource="@xml/provider_paths" />
+541-->[net.alhazmy13.MediaPicker:libary:2.4.4] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2ffd2fd58efe5a6c234a667b1aa4fab3\jetified-libary-2.4.4\AndroidManifest.xml:29:17-55
+542        </provider>
+543
+544        <activity
+544-->[com.swifttechnology.imepaysdk:payment-service:4.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\5d83cabee3560619b23d5cd4907f96f7\jetified-payment-service-4.0.1\AndroidManifest.xml:19:9-21:52
+545            android:name="com.swifttechnology.imepaysdk.presentation.view.activity.IMEPayActivity"
+545-->[com.swifttechnology.imepaysdk:payment-service:4.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\5d83cabee3560619b23d5cd4907f96f7\jetified-payment-service-4.0.1\AndroidManifest.xml:20:13-99
+546            android:screenOrientation="portrait" />
+546-->[com.swifttechnology.imepaysdk:payment-service:4.0.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\5d83cabee3560619b23d5cd4907f96f7\jetified-payment-service-4.0.1\AndroidManifest.xml:21:13-49
+547        <activity android:name="com.facebook.CustomTabMainActivity" />
+547-->[com.facebook.android:facebook-common:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0871a3a2c250d84673bec9e9d6df2bce\jetified-facebook-common-13.2.0\AndroidManifest.xml:34:9-71
+547-->[com.facebook.android:facebook-common:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0871a3a2c250d84673bec9e9d6df2bce\jetified-facebook-common-13.2.0\AndroidManifest.xml:34:19-68
+548
+549        <service android:name="com.payu.custombrowser.services.SnoozeService" />
+549-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c45bdcb65e7fdf9b3ace212da82be4cc\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:23:9-81
+549-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c45bdcb65e7fdf9b3ace212da82be4cc\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:23:18-78
+550
+551        <activity android:name="com.payu.custombrowser.PreLollipopPaymentsActivity" >
+551-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c45bdcb65e7fdf9b3ace212da82be4cc\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:25:9-42:20
+551-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c45bdcb65e7fdf9b3ace212da82be4cc\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:25:19-84
+552            <intent-filter>
+552-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c45bdcb65e7fdf9b3ace212da82be4cc\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:26:13-33:29
+553                <data android:scheme="np.com.aayonepal.aayonepalcustomer.success" />
+553-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:17-75
+553-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:23-72
+554
+555                <action android:name="android.intent.action.VIEW" />
+555-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:17-69
+555-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:25-66
+556
+557                <category android:name="android.intent.category.DEFAULT" />
+557-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:17-76
+557-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:27-73
+558                <category android:name="android.intent.category.BROWSABLE" />
+558-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:17-78
+558-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:27-75
+559            </intent-filter>
+560            <intent-filter>
+560-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c45bdcb65e7fdf9b3ace212da82be4cc\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:34:13-41:29
+561                <data android:scheme="np.com.aayonepal.aayonepalcustomer.failure" />
+561-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:17-75
+561-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:262:23-72
+562
+563                <action android:name="android.intent.action.VIEW" />
+563-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:17-69
+563-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:257:25-66
+564
+565                <category android:name="android.intent.category.DEFAULT" />
+565-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:17-76
+565-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:216:27-73
+566                <category android:name="android.intent.category.BROWSABLE" />
+566-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:17-78
+566-->F:\PagodaLab\aayo-nepal\app\src\main\AndroidManifest.xml:260:27-75
+567            </intent-filter>
+568        </activity>
+569        <activity android:name="com.payu.custombrowser.PrePaymentsActivity" />
+569-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c45bdcb65e7fdf9b3ace212da82be4cc\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:43:9-79
+569-->[com.payu.custombrowser:payu-custom-browser:7.5.1] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\c45bdcb65e7fdf9b3ace212da82be4cc\jetified-payu-custom-browser-7.5.1\AndroidManifest.xml:43:19-76
+570        <activity
+570-->[com.payu.upisdk:upisdk:1.0.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2415d35c668c1e3ab78bb1a165a8f065\jetified-upisdk-1.0.2\AndroidManifest.xml:14:9-17:63
+571            android:name="com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity"
+571-->[com.payu.upisdk:upisdk:1.0.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2415d35c668c1e3ab78bb1a165a8f065\jetified-upisdk-1.0.2\AndroidManifest.xml:15:13-83
+572            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+572-->[com.payu.upisdk:upisdk:1.0.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2415d35c668c1e3ab78bb1a165a8f065\jetified-upisdk-1.0.2\AndroidManifest.xml:16:13-75
+573            android:windowSoftInputMode="stateAlwaysHidden" />
+573-->[com.payu.upisdk:upisdk:1.0.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2415d35c668c1e3ab78bb1a165a8f065\jetified-upisdk-1.0.2\AndroidManifest.xml:17:13-60
+574        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+574-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:13:9-84
+574-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:13:19-81
+575        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+575-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:14:9-90
+575-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:14:19-87
+576        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+576-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:15:9-91
+576-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:15:19-88
+577        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+577-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:16:9-82
+577-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:16:19-79
+578        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+578-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:17:9-96
+578-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:17:19-93
+579        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+579-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:18:9-97
+579-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:18:19-94
+580        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+580-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:19:9-94
+580-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:19:19-91
+581        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+581-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:20:9-97
+581-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:20:19-94
+582        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+582-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:21:9-98
+582-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:21:19-95
+583
+584        <service
+584-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:23:9-25:40
+585            android:name="com.paypal.android.sdk.payments.PayPalService"
+585-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:24:13-73
+586            android:exported="false" />
+586-->[com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\6e54468a8fe513e2ba6796a7af2abd37\jetified-paypal-android-sdk-2.15.3\AndroidManifest.xml:25:13-37
+587
+588        <meta-data
+588-->[com.google.maps.android:android-maps-utils:2.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23508a931dc54a2b5cbd74ec10364f4e\jetified-android-maps-utils-2.2.0\AndroidManifest.xml:12:9-14:69
+589            android:name="com.google.android.gms.version"
+589-->[com.google.maps.android:android-maps-utils:2.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23508a931dc54a2b5cbd74ec10364f4e\jetified-android-maps-utils-2.2.0\AndroidManifest.xml:13:13-58
+590            android:value="@integer/google_play_services_version" />
+590-->[com.google.maps.android:android-maps-utils:2.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\23508a931dc54a2b5cbd74ec10364f4e\jetified-android-maps-utils-2.2.0\AndroidManifest.xml:14:13-66
+591
+592        <activity
+592-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+593            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+593-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+594            android:excludeFromRecents="true"
+594-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+595            android:exported="false"
+595-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+596            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+596-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+597        <!--
+598            Service handling Google Sign-In user revocation. For apps that do not integrate with
+599            Google Sign-In, this service will never be started.
+600        -->
+601        <service
+601-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+602            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+602-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+603            android:exported="true"
+603-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+604            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+604-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+605            android:visibleToInstantApps="true" />
+605-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\553070615ea397da9b984099ea888594\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+606        <!--
+607         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+608         with the application context. This config is merged in with the host app's manifest,
+609         but there can only be one provider with the same authority activated at any given
+610         point; so if the end user has two or more different apps that use Facebook SDK, only the
+611         first one will be able to use the provider. To work around this problem, we use the
+612         following placeholder in the authority to identify each host application as if it was
+613         a completely different provider.
+614        -->
+615        <provider
+615-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:41:9-44:40
+616            android:name="com.facebook.internal.FacebookInitProvider"
+616-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:42:13-70
+617            android:authorities="np.com.aayonepal.aayonepalcustomer.FacebookInitProvider"
+617-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:43:13-72
+618            android:exported="false" />
+618-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:44:13-37
+619
+620        <receiver
+620-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:46:9-52:20
+621            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+621-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:47:13-86
+622            android:exported="false" >
+622-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:48:13-37
+623            <intent-filter>
+623-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:49:13-51:29
+624                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+624-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:50:17-95
+624-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:50:25-92
+625            </intent-filter>
+626        </receiver>
+627        <receiver
+627-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:53:9-59:20
+628            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+628-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:54:13-118
+629            android:exported="false" >
+629-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:55:13-37
+630            <intent-filter>
+630-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:56:13-58:29
+631                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+631-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:57:17-103
+631-->[com.facebook.android:facebook-core:13.2.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\2d762db06e2b3154251cf9460964ff2b\jetified-facebook-core-13.2.0\AndroidManifest.xml:57:25-100
+632            </intent-filter>
+633        </receiver>
+634
+635        <service
+635-->[androidx.room:room-runtime:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\7e3eaf022e96e250fa55f331b32fb5ca\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+636            android:name="androidx.room.MultiInstanceInvalidationService"
+636-->[androidx.room:room-runtime:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\7e3eaf022e96e250fa55f331b32fb5ca\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+637            android:directBootAware="true"
+637-->[androidx.room:room-runtime:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\7e3eaf022e96e250fa55f331b32fb5ca\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+638            android:exported="false" />
+638-->[androidx.room:room-runtime:2.3.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\7e3eaf022e96e250fa55f331b32fb5ca\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+639        <service
+639-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\faefecef948da597f9bf12a17f73a5f6\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:29:9-35:19
+640            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+640-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\faefecef948da597f9bf12a17f73a5f6\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:30:13-103
+641            android:exported="false" >
+641-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\faefecef948da597f9bf12a17f73a5f6\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:31:13-37
+642            <meta-data
+642-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\faefecef948da597f9bf12a17f73a5f6\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:32:13-34:39
+643                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+643-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\faefecef948da597f9bf12a17f73a5f6\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:33:17-94
+644                android:value="cct" />
+644-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\faefecef948da597f9bf12a17f73a5f6\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:34:17-36
+645        </service>
+646
+647        <receiver
+647-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:37:9-44:20
+648            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+648-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:38:13-78
+649            android:exported="true"
+649-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:39:13-36
+650            android:permission="com.google.android.c2dm.permission.SEND" >
+650-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:40:13-73
+651            <intent-filter>
+651-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:41:13-43:29
+652                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+652-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:17-81
+652-->[com.google.firebase:firebase-iid:21.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\10494eeca8e0483c968431275b009a4d\jetified-firebase-iid-21.0.0\AndroidManifest.xml:42:25-78
+653            </intent-filter>
+654        </receiver>
+655
+656        <provider
+656-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\d244aa1736c822e0f287bacd27d3e45a\jetified-firebase-common-19.4.0\AndroidManifest.xml:26:9-31:39
+657            android:name="com.google.firebase.provider.FirebaseInitProvider"
+657-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\d244aa1736c822e0f287bacd27d3e45a\jetified-firebase-common-19.4.0\AndroidManifest.xml:27:13-77
+658            android:authorities="np.com.aayonepal.aayonepalcustomer.firebaseinitprovider"
+658-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\d244aa1736c822e0f287bacd27d3e45a\jetified-firebase-common-19.4.0\AndroidManifest.xml:28:13-72
+659            android:directBootAware="true"
+659-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\d244aa1736c822e0f287bacd27d3e45a\jetified-firebase-common-19.4.0\AndroidManifest.xml:29:13-43
+660            android:exported="false"
+660-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\d244aa1736c822e0f287bacd27d3e45a\jetified-firebase-common-19.4.0\AndroidManifest.xml:30:13-37
+661            android:initOrder="100" />
+661-->[com.google.firebase:firebase-common:19.4.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\d244aa1736c822e0f287bacd27d3e45a\jetified-firebase-common-19.4.0\AndroidManifest.xml:31:13-36
+662
+663        <activity
+663-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\39aa64f0e91f1547c05c33841719083e\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+664            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+664-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\39aa64f0e91f1547c05c33841719083e\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+665            android:exported="false"
+665-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\39aa64f0e91f1547c05c33841719083e\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+666            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+666-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\39aa64f0e91f1547c05c33841719083e\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+667
+668        <receiver
+668-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:29:9-33:20
+669            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+669-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:30:13-85
+670            android:enabled="true"
+670-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:31:13-35
+671            android:exported="false" >
+671-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:32:13-37
+672        </receiver>
+673
+674        <service
+674-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:35:9-38:40
+675            android:name="com.google.android.gms.measurement.AppMeasurementService"
+675-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:36:13-84
+676            android:enabled="true"
+676-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:37:13-35
+677            android:exported="false" />
+677-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:38:13-37
+678        <service
+678-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:39:9-43:72
+679            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+679-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:40:13-87
+680            android:enabled="true"
+680-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:41:13-35
+681            android:exported="false"
+681-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:42:13-37
+682            android:permission="android.permission.BIND_JOB_SERVICE" />
+682-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\747a939ef7299cfa73490161133be1d1\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:43:13-69
+683
+684        <provider
+684-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\907f460c53d0e80f0c33c787eb091a0d\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+685            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+685-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\907f460c53d0e80f0c33c787eb091a0d\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+686            android:authorities="np.com.aayonepal.aayonepalcustomer.lifecycle-process"
+686-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\907f460c53d0e80f0c33c787eb091a0d\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+687            android:exported="false"
+687-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\907f460c53d0e80f0c33c787eb091a0d\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+688            android:multiprocess="true" />
+688-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\907f460c53d0e80f0c33c787eb091a0d\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+689
+690        <service
+690-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0116f858ef24982601799f258646627f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+691            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+691-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0116f858ef24982601799f258646627f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+692            android:exported="false"
+692-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0116f858ef24982601799f258646627f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+693            android:permission="android.permission.BIND_JOB_SERVICE" >
+693-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0116f858ef24982601799f258646627f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+694        </service>
+695
+696        <receiver
+696-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0116f858ef24982601799f258646627f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+697            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+697-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0116f858ef24982601799f258646627f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+698            android:exported="false" />
+698-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\0116f858ef24982601799f258646627f\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+699
+700        <activity
+700-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:20:9-22:66
+701            android:name="io.card.payment.CardIOActivity"
+701-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:21:13-58
+702            android:configChanges="keyboardHidden|orientation" />
+702-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:22:13-63
+703        <activity android:name="io.card.payment.DataEntryActivity" />
+703-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:23:9-70
+703-->[io.card:android-sdk:5.5.0] C:\Users\Madhav\Downloads\gradle-5.4.1-all\caches\transforms-2\files-2.1\89441d5c9cc9821a90edde8b6403eea3\jetified-android-sdk-5.5.0\AndroidManifest.xml:23:19-67
+704    </application>
+705
+706</manifest>

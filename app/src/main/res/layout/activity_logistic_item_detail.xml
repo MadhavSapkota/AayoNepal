@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_20dp"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.logistic.item_detail.LogisticItemDetailActivity">
+
+    <TextView
+        android:text="What do you want delivered?"
+        android:fontFamily="@font/boldextra"
+        android:textSize="@dimen/_24sp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/_30dp"
+        android:id="@+id/itemRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

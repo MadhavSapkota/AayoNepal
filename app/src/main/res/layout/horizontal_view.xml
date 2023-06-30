@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/horizontal_main_view"
+    android:visibility="gone"
+    android:paddingTop="@dimen/_30dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen_16dp"
+        android:paddingEnd="@dimen/_16dp">
+
+        <TextView
+            android:id="@+id/tvSpecialOffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="Featured Restaurants"
+            android:textSize="@dimen/_18sp" />
+
+        <TextView
+            android:id="@+id/tvCaption"
+            android:visibility="gone"
+            android:fontFamily="@font/regular"
+            android:textSize="@dimen/_14sp"
+            android:text="asdasdasd"
+            android:layout_below="@id/tvSpecialOffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvShowAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_4dp"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/show_all"
+            android:textColor="@color/coloraccent"
+            android:textSize="@dimen/_16sp" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

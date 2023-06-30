@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="PromoView">
+        <attr name="promoTitle" format="string" />
+        <attr name="promoCode" format="string" />
+        <attr name="promoPercentage" format="string" />
+        <attr name="promoLimit" format="string" />
+        <attr name="promoImage" format="reference" />
+    </declare-styleable>
+</resources>

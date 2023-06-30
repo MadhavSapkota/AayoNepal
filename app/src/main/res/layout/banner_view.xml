@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/banner_main_view"
+    android:visibility="visible"
+    android:paddingTop="@dimen/_30dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="wrap_content"
+        android:src="@color/graybackground" />
+
+</RelativeLayout>

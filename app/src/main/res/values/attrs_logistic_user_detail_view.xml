@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="LogisticUserDetailView">
+        <attr name="detailTitle" format="string" />
+        <attr name="nameHint" format="string" />
+        <attr name="phoneHint" format="string" />
+    </declare-styleable>
+</resources>

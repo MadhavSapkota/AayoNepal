@@ -1,0 +1,750 @@
+[
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\logistic_loader_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\logistic_loader_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shimercategory.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\shimercategory.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat_audio_other.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_chat_audio_other.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_menu_item_bs.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_menu_item_bs.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_searching_rider.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_searching_rider.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_restaurant_menu_item.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_restaurant_menu_item.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_dialogbox_cart.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\custom_dialogbox_cart.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_hello_user.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_hello_user.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ime_pay_pickme.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_ime_pay_pickme.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_message.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_message.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_history_filter_bottom_sheet.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_history_filter_bottom_sheet.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_beritadetail.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_beritadetail.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_verify_forgot_password.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_verify_forgot_password.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_message.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_message.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\spinner.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\spinner.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_space.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_space.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ride_new_bottom_sheet.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_ride_new_bottom_sheet.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_special_offer_itemview.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_special_offer_itemview.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\promo_code_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\promo_code_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_merchant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_merchant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_fullimage.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_fullimage.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_withdraw.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_withdraw.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_enablelocation.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_enablelocation.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat_my.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_chat_my.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_image_slider.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_image_slider.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\progress_dialog.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\weight_spinner.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\weight_spinner.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_itemdetail.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_itemdetail.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps_merchant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_maps_merchant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_map.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notification.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_home_categories.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_home_categories.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_special_offers.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_special_offers.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_address_type.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_address_type.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat_alert.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_chat_alert.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_new_home.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_new_home.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_bookride.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_bookride.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shimerrating.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\shimerrating.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_privacy.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_privacy.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_promo_code_b_s.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_promo_code_b_s.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_ride_progress.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_ride_progress.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\banner_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\banner_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sheet_category.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\sheet_category.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_cart_icon.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\view_cart_icon.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\logistic_drop_down_dialog.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\logistic_drop_down_dialog.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat_image_other.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_chat_image_other.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_favourites.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_favourites.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\grid_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\grid_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_detail_merchant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_detail_merchant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_profile_head.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_profile_head.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_notification.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_notification.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat_other.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_chat_other.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_slider.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_slider.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\search_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\search_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_order_new.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_order_new.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_saved_address_ride_request.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_saved_address_ride_request.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_logistic_loader.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_logistic_loader.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_promo.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_promo.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_cart_available_home.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_cart_available_home.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_label_image_value.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\layout_label_image_value.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\services_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\services_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_home_category_itemview.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_home_category_itemview.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\slider_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\slider_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shimerlistdetail.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\shimerlistdetail.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sheet_detail_item.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\sheet_detail_item.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_changepassword.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_changepassword.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_ride_request_confirmation.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\layout_ride_request_confirmation.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_merchant_foodtimeline_dialoge.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_merchant_foodtimeline_dialoge.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_restaurant_menu.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_restaurant_menu.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_verify_forgot_password_b_s.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_verify_forgot_password_b_s.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_transaksi.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_transaksi.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail_order.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_detail_order.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_logistic_payment.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_logistic_payment.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sheet_list.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\sheet_list.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\title_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\title_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_logistic.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_logistic.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_dialogbox_yesno.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\custom_dialogbox_yesno.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_logistic_confirmation.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_logistic_confirmation.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_recycle.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_recycle.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_book_fitur.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_book_fitur.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_location.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_location.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\new_item_timetable.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\new_item_timetable.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_creditcard.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_creditcard.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_slider_layout.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_slider_layout.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_pesanan.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_pesanan.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_cart.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_cart.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_all_merchant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_all_merchant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_lupapassword.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_lupapassword.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_profile_item.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_profile_item.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\new_item_transaksi.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\new_item_transaksi.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_new_detail_merchant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\content_new_detail_merchant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_increase_decrease_dilaoge.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_increase_decrease_dilaoge.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_wallet.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_wallet.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_home_search.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_home_search.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_intro.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_merchant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_merchant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\services_item_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\services_item_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\greeting_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\greeting_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ride.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_ride.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_choose_language.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_choose_language.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_ride_bottom_sheet.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\layout_ride_bottom_sheet.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_category_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_category_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_wallet.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_wallet.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_topup.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_topup.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_dialogbox_yes.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\custom_dialogbox_yes.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\maps_marker.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\maps_marker.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\order_status_stepper.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\order_status_stepper.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_ride_request_confirm.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_ride_request_confirm.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_editprofile.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_editprofile.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_verifycode.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_verifycode.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_cat_merchant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_cat_merchant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_save_user_address.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_save_user_address.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_playaudio.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_playaudio.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\logistic_user_detail_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\logistic_user_detail_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chataudio.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_chataudio.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_ride.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_ride.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\verifycode.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\verifycode.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_logistic.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_logistic.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_aboutus.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\dialog_aboutus.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_promo.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_promo.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_dialogbox_okay.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\custom_dialogbox_okay.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_new_dynamic_home.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_new_dynamic_home.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\vertical_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\vertical_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chat_image_my.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_chat_image_my.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_set_location.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_set_location.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_order.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_order.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_new_ride_progress_detail.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\layout_new_ride_progress_detail.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_new_profile.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_new_profile.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_edit_address.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_edit_address.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_merchant_list.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_merchant_list.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_tab.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\custom_tab.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_fitur.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_fitur.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_my_address.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_my_address.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_all_merchant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_all_merchant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shimerlist.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\shimerlist.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notification_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\notification_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\my_addresses_row_item.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\my_addresses_row_item.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_location_picker.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_location_picker.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_rent.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_rent.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_all_berita.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_all_berita.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_rate.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_rate.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_picklocation.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_picklocation.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_grid.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_grid.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_logistic_item_detail.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_logistic_item_detail.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_payment_method.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_payment_method.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_my_cart.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_my_cart.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_driver_detail.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_driver_detail.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_bottom_sheet_category_filter.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_bottom_sheet_category_filter.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notification_settings.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_notification_settings.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_review.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_review.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\grid_item_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\grid_item_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_bank.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_bank.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail_merchant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_detail_merchant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\merchant_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\merchant_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_loading.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\dialog_loading.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\horizontal_item_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\horizontal_item_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_rider_request.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_new_rider_request.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slider.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_slider.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_logistic_detail.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_logistic_detail.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\restaurant_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\restaurant_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\horizontal_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\horizontal_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_featured_restaurants_slider.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_featured_restaurants_slider.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_home_restaurant_item.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_home_restaurant_item.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bookride.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_bookride.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_set_on_map.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\layout_set_on_map.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_pick_location_bottom_sheet.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\layout_pick_location_bottom_sheet.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\popup_window.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\popup_window.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_checkout.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_checkout.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_restaurant.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_restaurant.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_send.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_send.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shimerwallet.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\shimerwallet.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_grid_full.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\item_grid_full.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shimerrate.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\shimerrate.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shimercategoryfood.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\shimercategoryfood.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_category_filter_itemview.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_category_filter_itemview.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shimerpromo.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\shimerpromo.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_send_detail.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\activity_send_detail.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_home_title_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\row_home_title_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\logistic_item_detail_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\logistic_item_detail_view.xml"
+    },
+    {
+        "merged": "F:\\PagodaLab\\aayo-nepal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\promo_view.xml",
+        "source": "F:\\PagodaLab\\aayo-nepal\\app\\src\\main\\res\\layout\\promo_view.xml"
+    }
+]

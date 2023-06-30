@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="np.com.aayonepal.aayonepalcustomer"
+    android:installLocation="auto"
+    android:versionCode="55"
+    android:versionName="5.5" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <queries>
+        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" /> <!-- allows app to access Facebook app features -->
+    </queries>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Require below permissions for reading sms and otp assist feature -->
+    <!--
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name="com.ourdevelops.ourjek.constants.BaseApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="false"
+        android:windowSoftInputMode="adjustPan" >
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.edit_address.EditAddressActivity"
+            android:exported="false"
+            android:theme="@style/MainActivity" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.my_address.MyAddressActivity"
+            android:exported="false"
+            android:theme="@style/MainActivity" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.notification_settings.NotificationSettingsActivity"
+            android:exported="false"
+            android:theme="@style/MainActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.logistic.payment.LogisticPaymentActivity" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.logistic.item_detail.LogisticItemDetailActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.logistic.logistic_detail.LogisticDetailActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.logistic.LogisticActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.ourdevelops.ourjek.activity.new_logistic.NewLogisticActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.chat.MessageActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.new_merchant.NewMerchantActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.notification.NewNotificationActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.forgot_password.VerifyForgotPasswordActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.VerifycodeActivity" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.NewDetailMerchantActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.ourdevelops.ourjek.activity.NewAllMerchantActivity" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.PromoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.MapsMerchantActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.DetailMerchantActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.PicklocationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.allmerchant.AllMerchantActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.AllBeritaActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.WalletActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.chat.ChatActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.ourdevelops.ourjek.utils.api.service.MessagingService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.RateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.CreditcardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.WithdrawActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.BeritaDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.TopupSaldoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.RideCarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.RentCarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.SendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.SendDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.ProgressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.PrivacyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/noActionBar" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.forgot_password.LupapassActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.ChangepassActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.landing.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.ourdevelops.ourjek.activity.cart.checkout.CheckoutActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.NewRideCarActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.MApActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.LanguageChooseActivity" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.DriverDetailActivity"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="transparent.text.SECONDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ourdevelops.ourjek.activity.BookRideAcivity" />
+        <activity
+            android:name="com.ourdevelops.ourjek.activity.cart.NewDetailOrderActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.ourdevelops.ourjek.activity.NotificationActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.NewBookRideActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.ride_progress.NewRideProgressActivity" />
+        <activity android:name="com.ourdevelops.ourjek.fragment.FavouriteActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" /> <!-- <meta-data -->
+        <!-- android:name="keyValue" -->
+        <!-- android:value="@string/google_maps_key" /> -->
+        <!-- <provider -->
+        <!-- android:name="androidx.core.content.FileProvider" -->
+        <!-- android:authorities="np.com.pickme.fileprovider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+        <!-- android:resource="@xml/file_paths" /> -->
+        <!-- </provider> -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="cct.np.com.aayonepal.aayonepalcustomer"
+                    android:scheme="fbconnect" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ourdevelops.ourjek.activity.ItemDetailActivity" >
+            <intent-filter>
+                <action android:name="transparent.text.SECONDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ourdevelops.ourjek.service.location_service.LocationPickerActivity" />
+        <activity android:name="com.ourdevelops.ourjek.fragment.EnableLocationFragment" />
+        <activity android:name="com.ourdevelops.ourjek.activity.riderequest.NewRiderRequestActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.save_address.SaveUserAddressActivity" />
+        <activity android:name="com.ourdevelops.ourjek.activity.imepay.ImePayActivity" />
+
+        <service
+            android:name="com.ourdevelops.ourjek.service.ride_request.RideRequestService"
+            android:enabled="true" />
+        <service
+            android:name="com.ourdevelops.ourjek.service.cart_service.CartService"
+            android:enabled="true" />
+        <service
+            android:name="com.ourdevelops.ourjek.service.customer_status_service.CustomerStatusService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.ourdevelops.ourjek.service.LocationBroadCastReceiver"
+            android:process=":locationprocess" >
+            <intent-filter>
+                <action android:name="locationReceived" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.ourdevelops.ourjek.service.RideRequestBroadCastReceiver"
+            android:process=":rideReceiver" >
+            <intent-filter>
+                <action android:name="rideReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.ourdevelops.ourjek.service.CustomerStatusBroadcastReceiver"
+            android:process=":customerStatusReceiver" >
+            <intent-filter>
+                <action android:name="customerStatusReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.ourdevelops.ourjek.service.DriverLocationBroadcast" >
+            <intent-filter>
+                <action android:name="driverLocationReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.ourdevelops.ourjek.service.location_service.LocationService"
+            android:enabled="true" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteOverlay"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.payumoney.sdkui.ui.activities.PayUmoneyActivity"
+            android:label="@string/title_activity_citrus"
+            android:screenOrientation="portrait"
+            android:theme="@style/PayumoneyAppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payumoney.sdkui.ui.activities.ReviewOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PayumoneyAppTheme" />
+        <activity
+            android:name="com.payumoney.core.SdkWebViewActivityNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.payu.custombrowser.CBActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service> <!-- The activities will be merged into the manifest of the hosting app. -->
+        <activity
+            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:process=":playcore_missing_splits_activity"
+            android:stateNotNeeded="true" />
+        <activity
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+        <service
+            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+            android:enabled="false"
+            android:exported="true" >
+            <meta-data
+                android:name="com.google.android.play.core.assetpacks.versionCode"
+                android:value="11000" />
+        </service>
+        <service
+            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+            android:enabled="false"
+            android:exported="false" />
+
+        <activity
+            android:name="com.prabhutech.prabhupay_sdk.activity.EpaymentLoginActivity"
+            android:configChanges="orientation|screenSize|density|screenLayout|uiMode|fontScale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.alhazmy13.mediapicker.Image.ImageActivity"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name="net.alhazmy13.mediapicker.Video.VideoActivity"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="np.com.aayonepal.aayonepalcustomer.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.swifttechnology.imepaysdk.presentation.view.activity.IMEPayActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+
+        <service android:name="com.payu.custombrowser.services.SnoozeService" />
+
+        <activity android:name="com.payu.custombrowser.PreLollipopPaymentsActivity" >
+            <intent-filter>
+                <data android:scheme="np.com.aayonepal.aayonepalcustomer.success" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="np.com.aayonepal.aayonepalcustomer.failure" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.payu.custombrowser.PrePaymentsActivity" />
+        <activity
+            android:name="com.payu.upisdk.upiintent.PaymentResponseUpiSdkActivity"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="np.com.aayonepal.aayonepalcustomer.FacebookInitProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="np.com.aayonepal.aayonepalcustomer.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="np.com.aayonepal.aayonepalcustomer.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+    </application>
+
+</manifest>

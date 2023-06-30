@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="@dimen/_4dp">
+
+        <ImageView
+            android:id="@+id/back_btn_verify"
+            android:layout_width="@dimen/_44dp"
+            android:layout_height="@dimen/_44dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:padding="@dimen/_10dp"
+            android:src="@drawable/img_back_arrow"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/manrope_semi_bold"
+            android:gravity="center"
+            android:text="@string/otp_verification"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8dp"
+                android:fontFamily="@font/manrope_medium"
+                android:gravity="center"
+                android:text="@string/enter_otp_msg"
+                android:textColor="@color/aayo_text_gray"
+                android:textSize="@dimen/_14sp" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8dp"
+                android:fontFamily="@font/manrope_medium"
+                android:gravity="center"
+                android:text="@string/dummmy_contact"
+                android:textColor="@color/aayo_text_gray"
+                android:textSize="@dimen/_14sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_16dp"
+                android:layout_marginTop="@dimen/_32dp"
+                android:gravity="center_horizontal">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/one"
+                    android:layout_width="@dimen/_48dp"
+                    android:layout_height="@dimen/_48dp"
+                    android:background="@drawable/rectangle_gray_8dp"
+                    android:fontFamily="@font/manrope_semi_bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:importantForAutofill="no"
+                    android:inputType="textNoSuggestions|textVisiblePassword|number"
+                    android:maxLength="2"
+                    android:textColor="@color/aayo_red"
+                    android:textSize="@dimen/_20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/two"
+                    android:layout_width="@dimen/_48dp"
+                    android:layout_height="@dimen/_48dp"
+                    android:background="@drawable/rectangle_gray_8dp"
+                    android:fontFamily="@font/manrope_semi_bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:importantForAutofill="no"
+                    android:inputType="textNoSuggestions|textVisiblePassword|number"
+                    android:maxLength="2"
+                    android:textColor="@color/aayo_red"
+                    android:textSize="@dimen/_20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/three"
+                    android:layout_width="@dimen/_48dp"
+                    android:layout_height="@dimen/_48dp"
+                    android:background="@drawable/rectangle_gray_8dp"
+                    android:fontFamily="@font/manrope_semi_bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:importantForAutofill="no"
+                    android:inputType="textNoSuggestions|textVisiblePassword|number"
+                    android:maxLength="2"
+                    android:textColor="@color/aayo_red"
+                    android:textSize="@dimen/_20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/four"
+                    android:layout_width="@dimen/_48dp"
+                    android:layout_height="@dimen/_48dp"
+                    android:background="@drawable/rectangle_gray_8dp"
+                    android:fontFamily="@font/manrope_semi_bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:importantForAutofill="no"
+                    android:inputType="textNoSuggestions|textVisiblePassword|number"
+                    android:maxLength="2"
+                    android:textColor="@color/aayo_red"
+                    android:textSize="@dimen/_20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/five"
+                    android:layout_width="@dimen/_48dp"
+                    android:layout_height="@dimen/_48dp"
+                    android:background="@drawable/rectangle_gray_8dp"
+                    android:fontFamily="@font/manrope_semi_bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:importantForAutofill="no"
+                    android:inputType="textNoSuggestions|textVisiblePassword|number"
+                    android:maxLength="2"
+                    android:textColor="@color/aayo_red"
+                    android:textSize="@dimen/_20sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/six"
+                    android:layout_width="@dimen/_48dp"
+                    android:layout_height="@dimen/_48dp"
+                    android:background="@drawable/rectangle_gray_8dp"
+                    android:fontFamily="@font/manrope_semi_bold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:importantForAutofill="no"
+                    android:inputType="textNoSuggestions|textVisiblePassword|number"
+                    android:maxLength="1"
+                    android:textColor="@color/aayo_red"
+                    android:textSize="@dimen/_20sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_64dp"
+                android:fontFamily="@font/manrope_semi_bold"
+                android:gravity="center"
+                android:text="@string/norecieve"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sp" />
+
+            <TextView
+                android:id="@+id/resendCodeIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_4dp"
+                android:fontFamily="@font/manrope_semi_bold"
+                android:gravity="center"
+                android:text="@string/resend_code_in"
+                android:textColor="@color/aayo_red"
+                android:textSize="@dimen/_14sp" />
+
+            <TextView
+                android:id="@+id/resendCode"
+                android:background="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_4dp"
+                android:fontFamily="@font/manrope_semi_bold"
+                android:gravity="center"
+                android:text="@string/resend"
+                android:textColor="@color/blueLagoon"
+                android:textSize="@dimen/_18sp" />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlnotif2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:visibility="gone">
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:id="@+id/textnotif2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

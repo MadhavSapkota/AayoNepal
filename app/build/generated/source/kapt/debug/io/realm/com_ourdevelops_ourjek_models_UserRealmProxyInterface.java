@@ -1,0 +1,53 @@
+package io.realm;
+
+
+public interface com_ourdevelops_ourjek_models_UserRealmProxyInterface {
+    public String realmGet$id();
+    public void realmSet$id(String value);
+    public String realmGet$fullnama();
+    public void realmSet$fullnama(String value);
+    public String realmGet$email();
+    public void realmSet$email(String value);
+    public String realmGet$noTelepon();
+    public void realmSet$noTelepon(String value);
+    public String realmGet$countrycode();
+    public void realmSet$countrycode(String value);
+    public String realmGet$phone();
+    public void realmSet$phone(String value);
+    public String realmGet$password();
+    public void realmSet$password(String value);
+    public String realmGet$createdOn();
+    public void realmSet$createdOn(String value);
+    public String realmGet$tglLahir();
+    public void realmSet$tglLahir(String value);
+    public String realmGet$fullNamaNp();
+    public void realmSet$fullNamaNp(String value);
+    public String realmGet$noTeleponNp();
+    public void realmSet$noTeleponNp(String value);
+    public String realmGet$countrycodeNp();
+    public void realmSet$countrycodeNp(String value);
+    public String realmGet$phoneNp();
+    public void realmSet$phoneNp(String value);
+    public String realmGet$tglLahirNp();
+    public void realmSet$tglLahirNp(String value);
+    public String realmGet$ratingPelanggan();
+    public void realmSet$ratingPelanggan(String value);
+    public String realmGet$status();
+    public void realmSet$status(String value);
+    public String realmGet$token();
+    public void realmSet$token(String value);
+    public String realmGet$fotopelanggan();
+    public void realmSet$fotopelanggan(String value);
+    public String realmGet$showNoti();
+    public void realmSet$showNoti(String value);
+    public String realmGet$callStatus();
+    public void realmSet$callStatus(String value);
+    public String realmGet$callNote();
+    public void realmSet$callNote(String value);
+    public String realmGet$otp();
+    public void realmSet$otp(String value);
+    public String realmGet$appleId();
+    public void realmSet$appleId(String value);
+    public String realmGet$saldo();
+    public void realmSet$saldo(String value);
+}

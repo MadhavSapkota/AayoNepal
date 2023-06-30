@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.ourdevelops.ourjek.customviews.CustomFrameLayout
+            android:id="@+id/mapFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.ourdevelops.ourjek.customviews.CustomFrameLayout>
+
+    <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/_12dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabBack"
+            app:elevation="@dimen/_2dp"
+            app:fabCustomSize="@dimen/_44dp"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_48dp"
+            android:padding="@dimen/_16dp"
+            android:tint="@color/black"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/ic_thin_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <customfonts.TextViewSFProDisplayMedium
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="@dimen/dimen_70dp"
+            android:layout_marginTop="@dimen/_48dp"
+            android:layout_marginEnd="@dimen/dimen_70dp"
+            android:background="@drawable/button_round_1"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Status"
+            android:textColor="@color/black"/>
+
+    <include
+        android:id="@+id/layoutRideProgressDetail"
+        layout="@layout/layout_new_ride_progress_detail"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

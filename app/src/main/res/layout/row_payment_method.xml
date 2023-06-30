@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginEnd="@dimen/_4dp"
+    android:layout_marginStart="@dimen/_16dp"
+    android:layout_marginBottom="@dimen/_12dp"
+    android:id="@+id/bgLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/row_rounded_outlined_bg">
+
+    <LinearLayout
+        android:id="@+id/llcheckedcash"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/_16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:visibility="visible"
+                android:id="@+id/imgPaymentMethod"
+                android:layout_width="@dimen/_40dp"
+                android:layout_height="@dimen/_40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_wallet_new" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imgWalletPaymentMethod"
+                android:layout_width="@dimen/_80dp"
+                android:layout_height="@dimen/_40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_imepaylogo" />
+
+            <ImageView
+                android:id="@+id/imgSelected"
+                android:layout_width="@dimen/_24dp"
+                android:layout_height="@dimen/_24dp"
+                android:layout_alignParentRight="true"
+                android:checked="true"
+                android:src="@drawable/ic_checked" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvPaymentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_16dp"
+            android:fontFamily="@font/semibold"
+            android:text="Cash on delivery"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:id="@+id/tvPaymentCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/regular"
+            android:text="Pay after service delivery."
+            android:textSize="@dimen/_12sp" />
+    </LinearLayout>
+</RelativeLayout>

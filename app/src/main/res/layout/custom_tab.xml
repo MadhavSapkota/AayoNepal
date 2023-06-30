@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:animateLayoutChanges="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:animateLayoutChanges="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/_34dp"
+        android:layout_height="@dimen/_34dp">
+
+        <ImageView
+            android:id="@+id/imgTab"
+            android:layout_width="@dimen/_34dp"
+            android:layout_height="@dimen/_34dp"
+            android:padding="@dimen/_4dp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:visibility="gone"
+            android:layout_margin="@dimen/_2dp"
+            android:id="@+id/indicator"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="@dimen/_6dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            android:layout_width="@dimen/_12dp"
+            android:layout_height="@dimen/_12dp"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:fontFamily="@font/medium"
+        android:id="@+id/textTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:textSize="@dimen/_10sp" />
+
+</LinearLayout>

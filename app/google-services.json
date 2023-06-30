@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "237850268051",
+    "project_id": "aayo-nepal",
+    "storage_bucket": "aayo-nepal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237850268051:android:d56d26562e035cb4e91866",
+        "android_client_info": {
+          "package_name": "com.peacenepal.dhis2_fingerprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237850268051-bgjfcggl8tpr36bf811eoggh308bm2ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7b3yLMElfaEkmMor1Vy0bk09u6AskBPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237850268051-bgjfcggl8tpr36bf811eoggh308bm2ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237850268051:android:ddc7d84c6cabd6c0e91866",
+        "android_client_info": {
+          "package_name": "np.com.aayonepal.aayonepalcustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237850268051-rd6rc9q9knmac6qga0349ep0sakisdae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "np.com.aayonepal.aayonepalcustomer",
+            "certificate_hash": "6292ca58dc43af3287c621ee8fd7c0eb1ecc3585"
+          }
+        },
+        {
+          "client_id": "237850268051-bgjfcggl8tpr36bf811eoggh308bm2ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7b3yLMElfaEkmMor1Vy0bk09u6AskBPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237850268051-bgjfcggl8tpr36bf811eoggh308bm2ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

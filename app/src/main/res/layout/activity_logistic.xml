@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.riderequest.NewRiderRequestActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.ourdevelops.ourjek.customviews.CustomFrameLayout
+            android:id="@+id/mapFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:id="@+id/mapView"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.ourdevelops.ourjek.customviews.CustomFrameLayout>
+
+        <TextView
+            android:id="@+id/tvDragMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/pinImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_8dp"
+            android:background="@drawable/round_edittext_background"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/semibold"
+            android:paddingLeft="@dimen/_12dp"
+            android:paddingTop="@dimen/_4dp"
+            android:paddingRight="@dimen/_12dp"
+            android:paddingBottom="@dimen/_4dp"
+            android:text="Drag the map to change location"
+            android:textSize="@dimen/_14sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/pinImage"
+            android:layout_width="@dimen/_40dp"
+            android:layout_height="@dimen/_40dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_pin"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="@dimen/_44dp"
+        android:layout_height="@dimen/_44dp"
+        android:layout_margin="@dimen/_12dp"
+        android:background="@drawable/circle_bg"
+        android:backgroundTint="@color/white"
+        android:padding="@dimen/_12dp"
+        android:src="@drawable/ic_back"
+        app:tint="@color/black" />
+
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/_12dp" />
+
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:elevation="@dimen/_4dp" />
+
+    <include
+        android:id="@+id/layoutSearchSet"
+        layout="@layout/layout_pick_location_bottom_sheet" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

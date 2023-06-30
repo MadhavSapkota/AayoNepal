@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/_6dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/weight"
+        android:padding="@dimen/_10dp"
+        android:layout_width="match_parent"
+        android:text="Text test"
+        android:fontFamily="@font/bold"
+        android:textSize="@dimen/_18sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_below="@id/weight"
+        android:layout_width="match_parent"
+        android:text="test caption"
+        android:paddingStart="@dimen/_10dp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_12sp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

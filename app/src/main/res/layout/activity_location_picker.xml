@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/locationPicker_maps"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Space
+            android:id="@+id/locationPicker_space"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true" />
+
+        <LinearLayout
+            android:id="@+id/locationPicker_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/locationPicker_space"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/destination" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_24dp"
+        android:paddingTop="@dimen/_24dp"
+        android:paddingEnd="@dimen/_16dp"
+        android:paddingStart="@dimen/_16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_round_1"
+                android:backgroundTint="@color/backgroundgray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_search"
+                    app:tint="@color/gray" />
+
+                <AutoCompleteTextView
+                    android:backgroundTint="@color/transparent"
+                    android:id="@+id/locationPicker_autoCompleteText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Search Location"
+                    android:maxLines="1"
+                    android:padding="@dimen/_10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/_16sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="@dimen/_32dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20dp"
+                    android:layout_height="@dimen/_20dp"
+                    android:src="@drawable/ic_map_marker" />
+
+                <TextView
+                    android:id="@+id/locationPicker_currentAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:hint="Add your Location"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/_16sp" />
+            </LinearLayout>
+
+            <customfonts.Button_SF_Pro_Display_Medium
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/locationPicker_destinationButton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_44dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_round_1"
+                android:text="Add Location"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginLeft="@dimen/_8dp"
+        android:layout_marginRight="@dimen/_16dp"
+        android:background="@color/transparent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/_44dp"
+            android:layout_height="@dimen/_44dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/_4dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_22sp"
+            app:cardElevation="@dimen/_4dp">
+
+            <ImageView
+                android:layout_width="@dimen/_44dp"
+                android:layout_height="@dimen/_44dp"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_12dp"
+                android:src="@drawable/ic_back"
+                app:tint="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

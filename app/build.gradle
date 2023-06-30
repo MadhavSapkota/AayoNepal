@@ -1,0 +1,166 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'realm-android'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    signingConfigs {
+    }
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "np.com.aayonepal.aayonepalcustomer"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 55
+        versionName "5.5"
+        ndkVersion '21.3.6528147'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+    productFlavors {
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField 'String', 'BASE_URL', '"https://ayonepal.com/beta/api/"'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', 'BASE_URL', '"https://ayonepal.com/beta/api/"'
+
+//            /pelanggan/
+        }
+    }
+
+
+
+//    buildTypes {
+//        debug {
+//            buildConfigField 'String', 'BASE_URL', '"https://pickme.com.np/developers/"'
+//        }
+//        release {
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            buildConfigField 'String', 'BASE_URL', '"https://pickme.com.np/"'
+//        }
+//    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    viewBinding {
+        enabled = true
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation('com.mikepenz:fastadapter:2.0.0@aar') {
+        transitive = true
+    }
+
+    //noinspection GradleCompatible
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.android.libraries.places:places:2.3.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation platform('com.google.firebase:firebase-bom:26.1.1')
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'com.google.firebase:firebase-core'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.android.play:core:1.10.0'
+
+
+    implementation 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.github.ornolfr:rating-view:0.1.2@aar'
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    implementation 'com.google.guava:guava:24.1-jre'
+    implementation 'me.relex:circleindicator:1.2.1@aar'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation 'com.mobsandgeeks:android-saripaar:2.0.3'
+    implementation 'me.everything:overscroll-decor-android:1.0.4'
+    implementation 'com.mindorks.android:prdownloader:0.4.0'
+    implementation 'net.the4thdimension:audio-wife:1.0.3'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'com.makeramen:roundedimageview:2.2.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.paypal.sdk:paypal-android-sdk:2.15.3'
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    implementation 'com.github.siyamed:android-shape-imageview:0.9.3'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.github.yesterselga:country-picker-android:1.0'
+    implementation 'com.labo.kaji:fragmentanimations:0.1.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.wdullaer:materialdatetimepicker:3.2.0'
+    implementation 'org.jsoup:jsoup:1.11.3'
+    implementation 'com.payumoney.sdkui:plug-n-play:1.6.0'
+    implementation "androidx.exifinterface:exifinterface:1.2.0"
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.maps.android:android-maps-utils:2.2.0'
+    implementation 'net.alhazmy13.MediaPicker:libary:2.4.4'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.1.0'
+    api 'com.android.volley:volley:1.1.1'
+    implementation 'com.facebook.android:facebook-android-sdk:13.2.0'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.github.florent37:singledateandtimepicker:2.2.7'
+    implementation 'com.chaos.view:pinview:1.4.4'
+    implementation 'com.github.cachapa:ExpandableLayout:2.9.2'
+    implementation "androidx.core:core-ktx:1.5.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    //number increment decrement lib//
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+
+    //crashlytics
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    //ime pay lib//
+    implementation 'com.swifttechnology.imepaysdk:payment-service:4.0.1'
+
+    //prabhu pay lib//
+    implementation 'com.github.prabhutechnology:epayment_SDK_android:1.5'
+
+    // Coroutines, view model and livedata
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
+
+    //Room Database
+    implementation "androidx.room:room-runtime:2.3.0"
+    annotationProcessor "androidx.room:room-compiler:2.3.0"
+}
+
+apply plugin: 'com.google.gms.google-services'
+repositories {
+    mavenCentral()
+}

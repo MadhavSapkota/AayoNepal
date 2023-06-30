@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ourdevelops.ourjek"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <queries>
+        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" /> <!-- allows app to access Facebook app features -->
+    </queries>
+
+    <application
+        android:name=".constants.BaseApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="android:supportsRtl,android:allowBackup">
+        <activity
+            android:name=".activity.edit_address.EditAddressActivity"
+            android:exported="false"
+            android:theme="@style/MainActivity" />
+        <activity
+            android:name=".activity.my_address.MyAddressActivity"
+            android:exported="false"
+            android:theme="@style/MainActivity" />
+        <activity
+            android:name=".activity.notification_settings.NotificationSettingsActivity"
+            android:exported="false"
+            android:theme="@style/MainActivity" />
+        <activity android:name=".activity.logistic.payment.LogisticPaymentActivity" />
+        <activity
+            android:name=".activity.logistic.item_detail.LogisticItemDetailActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.logistic.logistic_detail.LogisticDetailActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.logistic.LogisticActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.new_logistic.NewLogisticActivity" />
+        <activity android:name=".activity.chat.MessageActivity" />
+        <activity android:name=".activity.new_merchant.NewMerchantActivity" />
+        <activity android:name=".activity.notification.NewNotificationActivity" />
+        <activity android:name=".activity.forgot_password.VerifyForgotPasswordActivity" />
+        <activity android:name=".activity.VerifycodeActivity" />
+        <activity
+            android:name=".activity.NewDetailMerchantActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.NewAllMerchantActivity" />
+        <activity
+            android:name=".activity.PromoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.MapsMerchantActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.DetailMerchantActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.PicklocationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.allmerchant.AllMerchantActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.AllBeritaActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.WalletActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.chat.ChatActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".utils.api.service.MessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <activity
+            android:name=".activity.RateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.CreditcardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.WithdrawActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BeritaDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TopupSaldoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.RideCarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RentCarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SendDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ProgressActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity"/>
+        <activity
+            android:name=".activity.PrivacyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/noActionBar" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.forgot_password.LupapassActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Login_phone"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.ChangepassActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activity.landing.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.cart.checkout.CheckoutActivity" />
+        <activity android:name=".activity.NewRideCarActivity" />
+        <activity android:name=".activity.MApActivity" />
+        <activity android:name=".activity.LanguageChooseActivity" />
+        <activity
+            android:name=".activity.DriverDetailActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="transparent.text.SECONDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.BookRideAcivity" />
+        <activity
+            android:name=".activity.cart.NewDetailOrderActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activity.NotificationActivity" />
+        <activity android:name=".activity.NewBookRideActivity" />
+        <activity android:name=".activity.ride_progress.NewRideProgressActivity" />
+        <activity android:name=".fragment.FavouriteActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" /> <!-- <meta-data -->
+        <!-- android:name="keyValue" -->
+        <!-- android:value="@string/google_maps_key" /> -->
+        <!-- <provider -->
+        <!-- android:name="androidx.core.content.FileProvider" -->
+        <!-- android:authorities="np.com.pickme.fileprovider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+        <!-- android:resource="@xml/file_paths" /> -->
+        <!-- </provider> -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ItemDetailActivity">
+            <intent-filter>
+                <action android:name="transparent.text.SECONDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".service.location_service.LocationPickerActivity" />
+        <activity android:name=".fragment.EnableLocationFragment" />
+        <activity android:name=".activity.riderequest.NewRiderRequestActivity" />
+        <activity android:name=".activity.save_address.SaveUserAddressActivity" />
+        <activity android:name=".activity.imepay.ImePayActivity" />
+
+        <service
+            android:name=".service.ride_request.RideRequestService"
+            android:enabled="true" />
+        <service
+            android:name=".service.cart_service.CartService"
+            android:enabled="true" />
+        <service
+            android:name=".service.customer_status_service.CustomerStatusService"
+            android:enabled="true" />
+
+        <receiver
+            android:name=".service.LocationBroadCastReceiver"
+            android:process=":locationprocess"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="locationReceived" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".service.RideRequestBroadCastReceiver"
+            android:process=":rideReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="rideReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".service.CustomerStatusBroadcastReceiver"
+            android:process=":customerStatusReceiver">
+            <intent-filter>
+                <action android:name="customerStatusReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".service.DriverLocationBroadcast">
+            <intent-filter>
+                <action android:name="driverLocationReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.location_service.LocationService"
+            android:enabled="true" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

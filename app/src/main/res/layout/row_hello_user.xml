@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingTop="@dimen/_16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_16dp"
+    android:paddingRight="@dimen/_16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:maxLines="1"
+        android:id="@+id/tvHelloUser"
+        android:fontFamily="@font/medium"
+        android:textSize="@dimen/_16sp"
+        android:text="Hello,"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:lineSpacingMultiplier="0.8"
+        android:fontFamily="@font/boldextra"
+        android:textSize="@dimen/_18sp"
+        android:text="Choose from our wide range of services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

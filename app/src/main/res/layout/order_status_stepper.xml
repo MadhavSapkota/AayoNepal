@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/order_stepper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/dimen_10dp"
+    android:paddingLeft="@dimen/dimen_10dp"
+    android:visibility="visible">
+
+    <View
+        android:id="@+id/progress_one"
+        android:layout_width="3dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/orders_progress_line" />
+
+    <View
+        android:id="@+id/circle_one"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/progress_one"
+        android:background="@drawable/outline_circle" />
+
+    <View
+        android:id="@+id/progress_two"
+        android:layout_width="3dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/circle_one"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/orders_progress_line" />
+
+    <View
+        android:id="@+id/circle_two"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/progress_two"
+        android:background="@drawable/outline_circle" />
+
+    <View
+        android:id="@+id/progress_three"
+        android:layout_width="3dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/circle_two"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/orders_progress_line" />
+
+    <View
+        android:id="@+id/circle_three"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/progress_three"
+        android:background="@drawable/outline_circle" />
+
+    <View
+        android:id="@+id/progress_four"
+        android:layout_width="3dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/circle_three"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/orders_progress_line" />
+
+    <View
+        android:id="@+id/circle_four"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/progress_four"
+        android:background="@drawable/outline_circle" />
+
+
+    <TextView
+        android:id="@+id/tv_pending"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/progress_one"
+        android:layout_marginStart="15dp"
+        android:layout_toRightOf="@id/circle_one"
+        android:gravity="center"
+        android:text="Order is Pending..."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_verified"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/progress_two"
+        android:layout_marginStart="15dp"
+        android:layout_toRightOf="@id/circle_two"
+        android:gravity="center"
+        android:text="Order has been Accepted..."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/progress_three"
+        android:layout_marginStart="15dp"
+        android:layout_toRightOf="@id/circle_three"
+        android:gravity="center"
+        android:text="Order is being picked up..."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/progress_four"
+        android:layout_marginStart="15dp"
+        android:layout_toRightOf="@id/circle_four"
+        android:gravity="center"
+        android:text="Order has been Delivered.."
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>

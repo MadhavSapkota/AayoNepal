@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LabelImageValueView">
+        <attr name="labelText" format="string"/>
+        <attr name="drawableImage" format="reference"/>
+        <attr name="valueHint" format="string"/>
+        <attr name="exampleColor" format="color"/>
+    </declare-styleable>
+
+
+</resources>

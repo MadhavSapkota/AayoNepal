@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_30dp">
+
+    <TextView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16dp"
+        android:fontFamily="@font/boldextra"
+        android:text="Special Offers"
+        android:textSize="@dimen/_18sp" />
+
+    <com.ourdevelops.ourjek.customviews.SmoothViewPager
+        android:layout_marginTop="@dimen/_16dp"
+        android:background="@color/graybackground"
+        android:clipToPadding="false"
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_240dp" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/pageIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        app:ci_animator="@anim/indicator_animator"
+        app:ci_drawable="@drawable/button_round_1"
+        app:ci_drawable_unselected="@drawable/button_round_2"
+        app:ci_height="@dimen/_8dp"
+        app:ci_margin="@dimen/_2dp"
+        app:ci_width="@dimen/_12dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_24dp"
+            android:paddingTop="@dimen/_24dp"
+            android:paddingRight="@dimen/_24dp"
+            android:paddingBottom="@dimen/_56dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginBottom="@dimen/_16dp"
+                android:layout_marginTop="@dimen/_4dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/athensGray"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="@dimen/_8dp"
+                android:layout_width="@dimen/_60dp"
+                android:layout_height="@dimen/_4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/boldextra"
+                android:lineSpacingMultiplier="0.92"
+                android:text="Add To Cart"
+                android:textSize="@dimen/_24sp" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="@dimen/_8dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/flamingo"
+                app:cardCornerRadius="@dimen/_8dp"
+                android:layout_width="@dimen/_40dp"
+                android:layout_height="@dimen/_4dp"/>
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_24dp"
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:lineSpacingMultiplier="0.92"
+                android:text="Twice Cooked Pork Ribs"
+                android:textSize="@dimen/_20sp" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_4dp"
+                android:id="@+id/tvDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:lineSpacingMultiplier="0.9"
+                android:text="Twice cooked pork with marignated cream cheese and sizzler sizzling ."
+                android:textSize="@dimen/_14sp" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_4dp"
+                android:id="@+id/tvMainPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/semibold"
+                android:lineSpacingMultiplier="0.92"
+                android:text="Rs.500"
+                android:textSize="@dimen/_16sp" />
+
+
+
+            <EditText
+                android:inputType="text"
+                android:id="@+id/etNotes"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100dp"
+                android:layout_marginTop="@dimen/_24dp"
+                android:background="@drawable/rounded_border"
+                android:backgroundTint="@color/backgroundgray"
+                android:fontFamily="@font/regular"
+                android:gravity="start"
+                android:hint="Anything else you want to mention?"
+                android:minLines="4"
+                android:padding="@dimen/_16dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/darkgray"
+                android:textSize="@dimen/_16sp"
+                android:importantForAutofill="no" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24dp">
+
+                <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                    android:id="@+id/quantityPicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:backGroundColor="@color/graybackground"
+                    app:initialNumber="@integer/int_1"
+                    app:textColor="@color/black"
+                    app:textSize="6sp" />
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_24dp"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:layout_toRightOf="@+id/quantityPicker"
+                    android:fontFamily="@font/boldextra"
+                    android:text="Rs. 385"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnAddToCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout"
+            android:layout_marginLeft="@dimen/_24dp"
+            android:layout_marginRight="@dimen/_24dp"
+            android:layout_marginBottom="@dimen/_24dp"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/orange"
+            app:cardCornerRadius="@dimen/_8dp"
+            app:cardElevation="@dimen/_4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                android:paddingTop="@dimen/_12dp"
+                android:paddingBottom="@dimen/_12dp"
+                android:text="Add To Cart"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sp" />
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

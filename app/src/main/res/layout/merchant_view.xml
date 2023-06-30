@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_16dp"
+    android:background="@color/white"
+    android:foreground="?attr/selectableItemBackground"
+    tools:targetApi="m">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="@dimen/_66dp"
+            android:layout_height="@dimen/_66dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                card_view:riv_corner_radius="@dimen/_6dp"
+                android:src="@drawable/image_placeholder" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/semibold"
+                android:maxLines="1"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sp" />
+
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kategori"
+                android:visibility="gone"
+                android:text="kategori"
+                android:maxLines="1"
+                android:textSize="@dimen/_14sp" />
+
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:maxLines="1"
+                android:text="alamat"
+                android:textColor="@color/dimgray"
+                android:textSize="@dimen/_14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:fontFamily="@font/regular"
+                    android:id="@+id/distance"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/gray"
+                    android:layout_height="wrap_content"
+                    android:text="distance"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/promobadge"
+        android:layout_width="50dp"
+        android:layout_marginLeft="6dp"
+        android:layout_height="20dp"
+        android:background="@drawable/promobadge"
+        android:elevation="15dp"
+        android:outlineProvider="none">
+    </FrameLayout>
+
+
+</RelativeLayout>

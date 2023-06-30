@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/_48dp"
+            android:layout_height="@dimen/_48dp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_10dp"
+            android:src="@drawable/ic_back"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/semibold"
+            android:text="Check Out"
+            android:textSize="@dimen/_20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_64dp">
+
+            <LinearLayout
+                android:layout_marginEnd="@dimen/_16dp"
+                android:layout_marginStart="@dimen/_16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_total"
+                android:layout_marginTop="@dimen/_4dp"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_24dp"
+                    android:layout_weight="1">
+
+
+                    <TextView
+                        android:id="@+id/tvTotalPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/boldextra"
+                        android:text="Rs. 0"
+                        android:textSize="@dimen/_32sp" />
+
+                    <TextView
+                        android:id="@+id/tvDiscountPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_16dp"
+                        android:layout_toEndOf="@+id/tvTotalPrice"
+                        android:fontFamily="sans-serif"
+                        android:text="Rs. 0"
+                        android:textSize="@dimen/_20sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:alpha="0.8"
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:text="Grand Total"
+                    android:textSize="@dimen/_16sp" />
+            </LinearLayout>
+
+            <com.ourdevelops.ourjek.customviews.PromoView
+                android:layout_marginEnd="@dimen/_16dp"
+                android:layout_marginStart="@dimen/_16dp"
+                android:id="@+id/llPromo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:promoCode="Applying..."
+                app:promoLimit="0"
+                app:promoPercentage="0"
+                app:promoTitle="Loading.." />
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_marginEnd="@dimen/_16dp"
+                android:layout_marginStart="@dimen/_16dp"
+                android:id="@+id/cardLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="@dimen/_12dp"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_16dp">
+
+                    <TextView
+                        android:id="@+id/tvTItle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="Delivery Location"
+                        android:textSize="@dimen/_18sp" />
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_20dp"
+                        android:layout_height="@dimen/_20dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/ic_new_edit"
+                        app:tint="@color/flamingo" />
+
+                    <LinearLayout
+                        android:id="@+id/layoutAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvTItle"
+                        android:layout_marginTop="@dimen/_12dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_24dp"
+                            android:layout_height="@dimen/_24dp"
+                            android:src="@drawable/ic_map_marker"
+                            app:tint="@color/red" />
+
+
+                        <TextView
+                            android:id="@+id/tvAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_12dp"
+                            android:fontFamily="@font/regular"
+                            android:lineSpacingMultiplier="0.9"
+                            android:text="Select a delivery location."
+                            android:textSize="@dimen/_16sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/layoutAddress"
+                        android:layout_marginTop="@dimen/_8dp"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="@dimen/_24dp"
+                            android:layout_height="@dimen/_24dp"
+                            android:src="@drawable/ic_phone_new"
+                            app:tint="@color/red" />
+
+
+                        <TextView
+                            android:id="@+id/tvContactNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_12dp"
+                            android:fontFamily="sans-serif"
+                            android:text="9841789233"
+                            android:textSize="@dimen/_16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_deliverycost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/layoutAddress"
+                        android:layout_marginStart="@dimen/_36dp"
+                        android:layout_marginTop="@dimen/_10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/regular"
+                            android:gravity="left"
+                            android:text="Delivery Fee"
+                            android:textSize="@dimen/_16sp" />
+
+                        <TextView
+                            android:id="@+id/cost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_12dp"
+                            android:fontFamily="@font/semibold"
+                            android:textSize="@dimen/_16sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_marginEnd="@dimen/_16dp"
+                android:layout_marginStart="@dimen/_16dp"
+                android:id="@+id/cardTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24dp"
+                app:cardBackgroundColor="@color/light_gray"
+                app:cardCornerRadius="@dimen/_12dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:layout_marginRight="@dimen/_16dp"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/_16dp"
+                    android:paddingBottom="@dimen/_16dp">
+
+                    <TextView
+                        android:id="@+id/tvLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:text="Delivery Time"
+                        android:textSize="@dimen/_18sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioGroup
+                            android:id="@+id/deliveryTimeGroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/dimen_5dp">
+
+                            <RadioButton
+                                android:id="@+id/asap"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/primary_blue"
+                                android:checked="true"
+                                android:fontFamily="@font/regular"
+                                android:onClick="onRadioButtonClicked" />
+
+                            <RadioButton
+                                android:id="@+id/scheduled"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:buttonTint="@color/primary_blue"
+                                android:fontFamily="@font/regular"
+                                android:onClick="onRadioButtonClicked" />
+                        </RadioGroup>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/deliveryTimeGroup"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dimen_30dp"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:visibility="gone"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/regular"
+                                    android:gravity="start"
+                                    android:paddingLeft="@dimen/_10dp"
+                                    android:text="ASAP"
+                                    android:textSize="@dimen/_16sp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/semibold"
+                                    android:gravity="start"
+                                    android:paddingStart="@dimen/_10dp"
+                                    android:text="50-60 minutes"
+                                    android:textSize="@dimen/_16sp" />
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_centerInParent="true"
+                                    android:scaleType="center"
+                                    android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/dimen_30dp"
+                                    android:layout_marginTop="@dimen/_3dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/regular"
+                                        android:gravity="start"
+                                        android:paddingLeft="@dimen/_10dp"
+                                        android:text="Scheduled"
+                                        android:textSize="@dimen/_16sp" />
+
+                                    <TextView
+                                        android:id="@+id/tv_chooseTime"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:fontFamily="@font/semibold"
+                                        android:gravity="end"
+                                        android:paddingRight="@dimen/_24dp"
+                                        android:text="Choose a time"
+                                        android:textSize="@dimen/_16sp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:id="@+id/llpayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_24dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/medium"
+                        android:paddingLeft="@dimen/_16dp"
+                        android:text="Payment Method"
+                        android:textSize="@dimen/_18sp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvPaymentMethods"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_8dp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btnApplyPromoCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_24dp"
+                    android:layout_marginTop="@dimen/_12dp"
+                    android:layout_marginRight="@dimen/_24dp"
+                    android:background="@drawable/bg_rounded_grey"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/_24dp"
+                        android:layout_height="@dimen/_24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_16dp"
+                        android:src="@drawable/ic_pricetag_alt" />
+
+
+                    <TextView
+                        android:id="@+id/tv_promo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/semibold"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/_12dp"
+                        android:paddingBottom="@dimen/_12dp"
+                        android:text="Apply promo code"
+                        android:textColor="@color/lightred"
+                        android:textSize="@dimen/_16sp"
+                        android:visibility="visible" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginTop="@dimen/_24dp"
+        android:layout_marginEnd="@dimen/_24dp"
+        android:layout_marginBottom="@dimen/_24dp"
+        android:background="@drawable/button_round_1"
+        android:fontFamily="@font/semibold"
+        android:gravity="center"
+        android:padding="@dimen/_12dp"
+        android:text="Confirm &amp; place order"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">पिक मी </string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyDbA6Sq8jb7D_NeEIAaUsl-gh_4_4erem0
+<!--        AIzaSyB5034ZghaklOWdLXApaFSKP8IEARxqeok-->
+    </string>
+
+    ////////
+    <string name="introtext1">Sign up now!</string>
+    <string name="introdesc1">Where did you go today? we will be ready to drive anywhere and anytime</string>
+    <string name="introtext2">Trackable</string>
+    <string name="introdesc2">Keep track of your packages location and driver, real-time.</string>
+    <string name="introtext3">Speedy delivery</string>
+    <string name="introdesc3">You can stay productive while we pick up and drop off your package, all within hours!</string>
+
+    <string name="exit">के तपाइँ निश्चय हुनुहुन्छ कि तपाइँ अनुप्रयोगबाट बाहिर निस्कन चाहनुहुन्छ?</string>
+    <string name="yes">हो!</string>
+    <string name="no">होईन</string>
+
+    <string name="email">ईमेल</string>
+    <string name="verifydesc">We send a verification code to the number</string>
+    <string name="norecieve">I did not receive the code!</string>
+    <string name="resend">Resend Code</string>
+    <string name="confirm">पुष्टि गर्नुहोस्</string>
+    <string name="privacy">साइन इन गरेर, तपाईं यसमा सहमत हुनुहुन्छ  <![CDATA[<b><font color=#6DC0FF>नियम र सर्तहरू</font></b>]]></string>
+    <string name="text_with_bullet">\u2022</string>
+    <string name="lupa">पासवर्ड भुल्नु भयो ?</string>
+    <string name="button_signIn">लग-इन</string>
+    <string name="button_signUp"> रेजिष्टर</string>
+    <string name="button_dontHaveAccount">खाता छैन? </string>
+    <string name="wrongnumber">Wrong phone number format </string>
+    <string name="phoneemailwrong">wrong phone or password</string>
+    <string name="phonepass">Phone and Password cannot be empty!</string>
+    <string name="phoneempty">Phone cannot be empty!</string>
+    <string name="passempty">Password cannot be empty!</string>
+    <string name="emailempty">Email cannot be empty!</string>
+
+    <string name="hint_name">नाम</string>
+    <string name="hint_email">ईमेल</string>
+    <string name="hint_phone">फोन</string>
+    <string name="hint_birthday">जन्मदिन</string>
+    <string name="hint_password">पासवर्ड</string>
+
+    <string name="menu_home">होम</string>
+    <string name="menu_chat">कुराकानी</string>
+    <string name="menu_order">अर्डर</string>
+    <string name="menu_favourite">मनपर्ने</string>
+    <string name="menu_profile">प्रोफाइल</string>
+    <string name="text_cancel">रद्द गर्नुहोस्</string>
+    <string name="getstarted">Get Started</string>
+
+    <string name="ride_location">स्थान</string>
+    <string name="ride_destination">गन्तव्य</string>
+
+    <string name="ride_note">Notes</string>
+
+    <string name="ride_setPickUp">पिकअप सेट गर्नुहोस्</string>
+    <string name="ride_setDestination">गन्तव्य सेट गर्नुहोस्</string>
+    <string name="text_order">अर्डर</string>
+    <string name="proceedToCheckOut">जाँच गर्न अगाडि बढ्नुहोस्</string>
+    <string name="waiting_desc">हामी नजिकको ड्राइभर खोज्दैछौं</string>
+    <string name="waiting_pleaseWait">कृपया पर्खनुहोस्....</string>
+    <string name="text_noInternet">कुनै इन्टरनेट पहुँच छैन</string>
+
+    <string name="notification_cancel">Order has been canceled</string>
+    <string name="notification_start">to the destination location</string>
+    <string name="notification_accept">you found a driver</string>
+    <string name="notification_finish">thank you for using our services</string>
+    <string name="English">अंग्रेजी</string>
+    <string name="Nepali">नेपाली</string>
+    <string name="select">कृपया तपाइँको उपयुक्त भाषा छनौट गर्नुहोस्</string>
+    <string name="edit_profile">इदित प्रोफाइल</string>
+    <string name="change_password">पासवर्ड परिवर्तन</string>
+    <string name="logout">बाहिर निस्कनु</string>
+    <string name="change_language">भाषा परिवर्तन</string>
+    <string name="what_customer_say">ग्राहकले के भन्छन्?</string>
+    <string name="latest_news">Special Offers</string>
+    <string name="show_all">सबै देखाऊ</string>
+    <string name="payment_detail">भुक्तानी विवरण</string>
+    <string name="estimate_time">अनुमानित समय</string>
+    <string name="distance_km">दूरी (KM)</string>
+    <string name="cost">लागत</string>
+    <string name="discount">छुट</string>
+    <string name="total">कुल</string>
+    <string name="payment_method">भुक्तानी विधि</string>
+    <string name="cash">क्यास</string>
+    <string name="pay_with_cash">नगद भुक्तान</string>
+    <string name="location">स्थान</string>
+    <string name="locationDetails">स्थान विवरण</string>
+
+    <string name="old_password">पुरानो पासवर्ड</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="choose_another_location">Choose another location.</string>
+    <string name="office">Office</string>
+    <string name="set_location">set location</string>
+    <string name="home">Home</string>
+    <string name="comission">Commission</string>
+    <string name="servcecharge">Service Charge</string>
+    <string name="vat">Vat</string>
+
+</resources>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardElevation="@dimen/_12dp"
+    android:layout_marginHorizontal="@dimen/_16dp"
+    android:layout_marginVertical="@dimen/_8dp"
+    app:cardCornerRadius="@dimen/_16dp"
+    android:outlineAmbientShadowColor="@color/gray"
+    android:outlineSpotShadowColor="@color/gray">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="@dimen/_16dp">
+
+        <TextView
+            android:id="@+id/texttanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/manrope_medium"
+            android:text="01 Jan, 2022"
+            android:textColor="@color/aayo_profile_text_gray"
+            android:textSize="@dimen/_14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/one_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8dp"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/texttanggal">
+
+            <com.github.siyamed.shapeimageview.CircularImageView
+                android:background="@color/white"
+                android:id="@+id/image"
+                android:layout_width="@dimen/_40dp"
+                android:layout_height="@dimen/_40dp"
+                android:src="@drawable/history_user"
+                app:siBorderColor="@color/white"
+                app:siBorderWidth="0dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/_6dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/manrope_semi_bold"
+                    android:text="John Doe"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/manrope_regular"
+                    android:text="9860123456"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_green_border_5dp"
+                android:fontFamily="@font/manrope_semi_bold"
+                android:padding="@dimen/_6dp"
+                android:text="ACTIVE"
+                android:textColor="@color/aayo_green"
+                android:textSize="@dimen/_10sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_12dp"
+            android:background="@color/social_gray"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/one_wrapper" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12dp"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider">
+
+            <ImageView
+                android:id="@+id/redCircle"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_10dp"
+                android:foregroundGravity="center"
+                android:padding="0dp"
+                android:scaleType="center"
+                android:src="@drawable/circle_red"
+                app:layout_constraintBottom_toBottomOf="@id/pickupTxt"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/pickupTxt"
+                app:layout_constraintTop_toTopOf="@id/pickupTxt" />
+
+            <TextView
+                android:id="@+id/pickupTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8dp"
+                android:background="@drawable/rectangle_red_background"
+                android:fontFamily="@font/manrope_medium"
+                android:paddingHorizontal="@dimen/_8dp"
+                android:paddingVertical="@dimen/_4dp"
+                android:text="@string/pickup"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sp"
+                app:layout_constraintLeft_toRightOf="@id/redCircle"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/pickupAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4dp"
+                android:fontFamily="@font/manrope_medium"
+                android:text="Kumaripati, Lalitpur"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sp"
+                app:layout_constraintLeft_toLeftOf="@id/pickupTxt"
+                app:layout_constraintTop_toBottomOf="@id/pickupTxt"
+                app:layout_constraintRight_toLeftOf="@+id/asd"/>
+
+            <ImageView
+                android:id="@+id/asd"
+                android:layout_width="@dimen/_56dp"
+                android:layout_height="@dimen/_56dp"
+                android:background="@drawable/rectangle_gray_8dp"
+                android:padding="@dimen/_12dp"
+                android:src="@drawable/motorbike"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintLeft_toRightOf="@+id/pickupAddress"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/greenCircle"
+                android:layout_width="@dimen/_10dp"
+                android:layout_height="@dimen/_10dp"
+                android:padding="0dp"
+                android:scaleType="center"
+                android:src="@drawable/circle_green"
+                app:layout_constraintBottom_toBottomOf="@id/destinationTxt"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@id/destinationTxt" />
+
+            <TextView
+                android:id="@+id/destinationTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8dp"
+                android:layout_marginTop="@dimen/_16dp"
+                android:background="@drawable/rectangle_green_background"
+                android:fontFamily="@font/manrope_medium"
+                android:paddingHorizontal="@dimen/_8dp"
+                android:paddingVertical="@dimen/_4dp"
+                android:text="@string/destination"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sp"
+                app:layout_constraintLeft_toRightOf="@id/greenCircle"
+                app:layout_constraintTop_toBottomOf="@id/pickupAddress" />
+
+            <TextView
+                android:id="@+id/destinationAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4dp"
+                android:fontFamily="@font/manrope_medium"
+                android:text="Koteshshowr, Bhaktapur"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sp"
+                app:layout_constraintLeft_toLeftOf="@id/destinationTxt"
+                app:layout_constraintTop_toBottomOf="@id/destinationTxt"
+                app:layout_constraintRight_toLeftOf="@+id/price"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_bold"
+                android:text="Rs. 49.00"
+                android:textColor="@color/aayo_red"
+                android:textSize="@dimen/_16sp"
+                app:layout_constraintBaseline_toBaselineOf="@id/destinationAddress"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintLeft_toRightOf="@id/destinationAddress"
+                app:layout_constraintRight_toRightOf="parent" />
+
+
+            <View
+                android:id="@+id/dashOne"
+                android:layout_width="1.5dp"
+                android:layout_height="4dp"
+                android:layout_marginVertical="@dimen/_2dp"
+                android:background="@color/gray"
+                app:layout_constraintBottom_toTopOf="@+id/dashTwo"
+                app:layout_constraintLeft_toLeftOf="@id/redCircle"
+                app:layout_constraintRight_toRightOf="@id/redCircle"
+                app:layout_constraintTop_toBottomOf="@+id/redCircle" />
+
+            <View
+                android:id="@+id/dashTwo"
+                android:layout_width="1.5dp"
+                android:layout_height="6dp"
+                android:layout_marginVertical="@dimen/_2dp"
+                android:background="@color/gray"
+                app:layout_constraintBottom_toTopOf="@id/dashThree"
+                app:layout_constraintLeft_toLeftOf="@id/redCircle"
+                app:layout_constraintRight_toRightOf="@id/redCircle"
+                app:layout_constraintTop_toBottomOf="@+id/dashOne" />
+
+            <View
+                android:id="@+id/dashThree"
+                android:layout_width="1.5dp"
+                android:layout_height="6dp"
+                android:layout_marginVertical="@dimen/_2dp"
+                android:background="@color/gray"
+                app:layout_constraintBottom_toTopOf="@id/dashFour"
+                app:layout_constraintLeft_toLeftOf="@id/redCircle"
+                app:layout_constraintRight_toRightOf="@id/redCircle"
+                app:layout_constraintTop_toBottomOf="@+id/dashTwo" />
+
+            <View
+                android:id="@+id/dashFour"
+                android:layout_width="1.5dp"
+                android:layout_height="4dp"
+                android:layout_marginVertical="@dimen/_2dp"
+                android:background="@color/gray"
+                app:layout_constraintBottom_toTopOf="@id/greenCircle"
+                app:layout_constraintLeft_toLeftOf="@id/redCircle"
+                app:layout_constraintRight_toRightOf="@id/redCircle"
+                app:layout_constraintTop_toBottomOf="@+id/dashThree" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

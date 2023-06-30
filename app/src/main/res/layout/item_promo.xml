@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:foreground="?attr/selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="@dimen/_16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/dimen_70dp"
+            android:layout_height="@dimen/dimen_70dp"
+            android:src="@drawable/image_placeholder" />
+
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:paddingRight="@dimen/_16dp"
+            android:paddingLeft="@dimen/_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:maxLines="2"
+                    android:id="@+id/tvDiscountPercent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/boldextra"
+                    android:text="10% discount upto Rs.500"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18sp" />
+
+
+                <TextView
+                    android:lineSpacingMultiplier="0.9"
+                    android:id="@+id/kodepromo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/regular"
+                    android:gravity="top"
+                    android:maxLines="1"
+                    android:text="1234567890"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sp" />
+
+
+
+
+
+
+                <TextView
+                    android:lineSpacingMultiplier="0.9"
+                    android:maxLines="1"
+                    android:id="@+id/nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/regular"
+                    android:text="Promo Code asdasd asdasd asdasd adasd asdasd "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sp" />
+
+                <TextView
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/expired"
+                    android:background="@drawable/button_round_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:text="20 may 2020"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sp"
+                    android:visibility="gone" />
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/_8dp"
+                    android:layout_alignBottom="@+id/content"
+                    android:id="@+id/iv_appyCode"
+                    android:textSize="@dimen/_12sp"
+                    android:background="@drawable/bg_rounded_grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_16dp"
+                    android:paddingRight="@dimen/_16dp"
+                    android:paddingTop="@dimen/_6dp"
+                    android:paddingBottom="@dimen/_6dp"
+                    android:fontFamily="@font/semibold"
+                    android:text="Apply Code"
+                    android:src="@drawable/ic_checked" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/margin"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1dp"
+        android:layout_marginTop="@dimen/_3dp"
+        android:alpha="0.1"
+        android:background="@color/black" />
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_16dp"
+    android:layout_marginTop="@dimen/_32dp"
+    android:layout_marginRight="@dimen/_16dp"
+    app:cardBackgroundColor="@color/athensGray"
+    app:cardCornerRadius="@dimen/_12dp"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_16dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/_66dp"
+                android:layout_height="@dimen/_66dp"
+                android:background="@drawable/circle_bg"
+                android:src="@drawable/ic_colored_bike" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_16dp"
+                android:layout_toEndOf="@+id/image"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:lineSpacingMultiplier="0.9"
+                    android:text="Searching Bike Ride"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16sp" />
+
+                <TextView
+                    android:id="@+id/tvMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/medium"
+                    android:lineSpacingMultiplier="0.9"
+                    android:text="Please wait while we find you a ride."
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sp" />
+
+                <ProgressBar
+                    android:id="@+id/progress"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8dp"
+                    android:layout_marginRight="@dimen/_16dp"
+                    android:indeterminateOnly="true"
+                    android:indeterminateTint="@color/blueLagoon"
+                    android:text="Searching for ride"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:maxLines="1"
+                        android:visibility="gone"
+                        android:id="@+id/tvSecondaryButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40dp"
+                        android:layout_marginRight="@dimen/_12dp"
+                        android:background="@drawable/rounded_button_gray"
+                        android:backgroundTint="@color/java"
+                        android:drawableLeft="@drawable/ic_phone_new"
+                        android:drawablePadding="@dimen/_8dp"
+                        android:drawableTint="@color/white"
+                        android:fontFamily="@font/semibold"
+                        android:paddingLeft="@dimen/_12dp"
+                        android:paddingTop="@dimen/_10dp"
+                        android:paddingRight="@dimen/_12dp"
+                        android:paddingBottom="@dimen/_10dp"
+                        android:text="Call Rider"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sp" />
+
+                    <TextView
+                        android:maxLines="1"
+                        android:id="@+id/tvActionButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40dp"
+                        android:background="@drawable/rounded_button_flamingo"
+                        android:fontFamily="@font/semibold"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_20dp"
+                        android:paddingRight="@dimen/_20dp"
+                        android:text="Cancel Search"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgClose"
+            android:layout_width="@dimen/_40dp"
+            android:layout_height="@dimen/_40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/_4dp"
+            android:padding="@dimen/_8dp"
+            android:src="@drawable/ic_baseline_close_24"
+            android:visibility="gone"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

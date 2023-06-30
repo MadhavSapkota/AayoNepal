@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="@dimen/_8dp">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="@dimen/_44dp"
+            android:layout_height="@dimen/_44dp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_12dp"
+            android:src="@drawable/ic_back"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:layout_toEndOf="@+id/imgBack"
+            android:fontFamily="@font/bold"
+            android:text="Save Address"
+            android:textSize="@dimen/_20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16dp"
+            android:layout_marginRight="@dimen/_16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24dp"
+                android:background="@drawable/bg_rounded_grey"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_16dp"
+                android:paddingTop="@dimen/_8dp"
+                android:paddingRight="@dimen/_16dp"
+                android:paddingBottom="@dimen/_8dp">
+
+                <ImageView
+                    android:layout_width="@dimen/_32dp"
+                    android:layout_height="@dimen/_32dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/circle_bg"
+                    android:padding="@dimen/_8dp"
+                    android:src="@drawable/ic_map_marker" />
+
+                <TextView
+                    android:id="@+id/tvAddressName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_16dp"
+                    android:fontFamily="@font/medium"
+                    android:text="Saved Address"
+                    android:textSize="@dimen/_18sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/_34dp"
+                android:fontFamily="@font/bold"
+                android:text="Save address as"
+                android:textSize="@dimen/_18sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewAddressTypes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8dp" />
+
+            <LinearLayout
+                android:id="@+id/layoutAddressName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_34dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/bold"
+                    android:text="Address Name"
+                    android:textSize="@dimen/_18sp" />
+
+
+                <EditText
+                    android:id="@+id/etAddressTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8dp"
+                    android:background="@drawable/bg_rounded_grey"
+                    android:fontFamily="@font/regular"
+                    android:gravity="top"
+                    android:hint="Name for address"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/_16dp"
+                    android:paddingTop="@dimen/_8dp"
+                    android:paddingRight="@dimen/_16dp"
+                    android:paddingBottom="@dimen/_8dp"
+                    android:textSize="@dimen/_16sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/_34dp"
+                android:fontFamily="@font/bold"
+                android:text="Additional Info"
+                android:textSize="@dimen/_18sp" />
+
+
+            <EditText
+                android:id="@+id/etAdditionalInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8dp"
+                android:background="@drawable/bg_rounded_grey"
+                android:fontFamily="@font/regular"
+                android:gravity="top"
+                android:hint="Extra details for the address"
+                android:minLines="4"
+                android:paddingLeft="@dimen/_16dp"
+                android:paddingTop="@dimen/_8dp"
+                android:paddingRight="@dimen/_16dp"
+                android:paddingBottom="@dimen/_8dp"
+                android:textSize="@dimen/_16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_24dp"
+        android:layout_marginRight="@dimen/_24dp"
+        android:layout_marginBottom="@dimen/_16dp"
+        android:background="@drawable/button_round_2"
+        android:backgroundTint="@color/flamingo"
+        android:fontFamily="@font/semibold"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sp" />
+
+</RelativeLayout>

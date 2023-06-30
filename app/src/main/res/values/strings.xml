@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Pick Me</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyDbA6Sq8jb7D_NeEIAaUsl-gh_4_4erem0
+        <!--            AIzaSyB5034ZghaklOWdLXApaFSKP8IEARxqeok-->
+    </string>
+
+    <string name="web_client_id" templateMergeStrategy="preserve" translatable="false">237850268051-bgjfcggl8tpr36bf811eoggh308bm2ec.apps.googleusercontent.com</string>
+    <string name="facebook_app_id" templateMergeStrategy="preserve" translatable="false">340227604891058</string>
+    <string name="fb_login_protocol_scheme" templateMergeStrategy="preserve" translatable="false">fb340227604891058</string>
+    <string name="facebook_client_token" templateMergeStrategy="preserve" translatable="false">31f9407b74124c7275a1faa4e9287492</string>
+
+
+    ////////
+    <string name="introtext1">All in one Platform</string>
+    <string name="introdesc1">Get food, bike, car, logistics, mart and more in one platform with Pick Me.</string>
+    <string name="introtext2">Order from wide range of restaurants</string>
+    <string name="introdesc2">Get food delivered at your doorstep from wide range of restaurants.</string>
+    <string name="introtext3">Book bike and car rides with ease</string>
+    <string name="introdesc3">Travel anywhere inside valley with Pick Me at lowest cost.</string>
+
+    <string name="exit">Are you sure you want to exit the application?</string>
+    <string name="yes">YES!</string>
+    <string name="no">NO</string>
+
+    <string name="email">Email</string>
+    <string name="verifydesc">We send a verification code to the number</string>
+    <string name="norecieve">Didn’t get a code?</string>
+    <string name="resend">Resend Code</string>
+    <string name="confirm">Confirm</string>
+    <string name="privacy">By signing in, you agree to the  <![CDATA[<b><font color=#6DC0FF>terms and conditions</font></b>]]></string>
+    <string name="text_with_bullet">\u2022</string>
+    <string name="lupa">Forgot Password?</string>
+    <string name="button_signIn">Login</string>
+    <string name="button_signUp"> Register Now</string>
+    <string name="button_dontHaveAccount">Don\'t Have An Account? </string>
+    <string name="wrongnumber">Wrong phone number format </string>
+    <string name="phoneemailwrong">wrong phone or password</string>
+    <string name="phonepass">Phone and Password cannot be empty!</string>
+    <string name="phoneempty">Phone cannot be empty!</string>
+    <string name="passempty">Password cannot be empty!</string>
+    <string name="emailempty">Email cannot be empty!</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="hint_password">Password</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_favourite">Favourite</string>
+    <string name="menu_profile">Profile</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="getstarted">Get Started</string>
+
+    <string name="ride_location">Location</string>
+    <string name="ride_destination">Destination</string>
+
+    <string name="ride_note">Notes</string>
+
+    <string name="ride_setPickUp">Set PickUp</string>
+    <string name="ride_setDestination">Set Destination</string>
+    <string name="text_order">Request</string>
+    <string name="proceedToCheckOut">Proceed to check out</string>
+    <string name="waiting_desc">We are searching for the closest driver</string>
+    <string name="waiting_pleaseWait">Please Wait....</string>
+    <string name="text_noInternet">No internet Access</string>
+
+    <string name="notification_cancel">Request has been cancelled.</string>
+    <string name="notification_start">to the destination location</string>
+    <string name="notification_accept">you found a driver</string>
+    <string name="notification_finish">thank you for using our services</string>
+    <string name="English">English</string>
+    <string name="Nepali">Nepali</string>
+    <string name="select">Please Choose your suitable Language</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="change_language">Change Language</string>
+    <string name="what_customer_say">What Customer Say?</string>
+    <string name="latest_news">Special Offers</string>
+    <string name="show_all">Show All</string>
+    <string name="location">Location</string>
+    <string name="locationDetails">Location Details</string>
+    <string name="payment_detail">Payment Detail</string>
+    <string name="estimate_time">Estimate Time</string>
+    <string name="distance_km">Distance (KM)</string>
+    <string name="cost">Cost</string>
+    <string name="discount">Discount</string>
+    <string name="total">Total</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cash">CASH</string>
+    <string name="pay_with_cash">Pay With Cash</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="choose_another_location">Choose another location.</string>
+    <string name="office">Work</string>
+    <string name="set_location">set location</string>
+    <string name="home">Home</string>
+    <string name="cartCaps" translatable="false">Your cart has items. Tap to view your cart and checkout your items.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="comission">Commission</string>
+    <string name="servcecharge">Service Charge</string>
+    <string name="vat">Vat</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="by_signing">By signing in, you agree to the</string>
+    <string name="terms_and">Terms and</string>
+    <string name="conditions">Conditions</string>
+    <string name="or_continue_with">or Continue with</string>
+    <string name="processing">PROCESSING</string>
+    <string name="email_not_exist">Email doesn\'t exist, Try using Register Option.</string>
+    <string name="email_not_exist_error">Please Enter valid credentials</string>
+    
+    <string name="phone_required">Phone number is required.</string>
+    <string name="phone_count_13">Phone number must be 10 characters long.</string>
+    <string name="password_required">Password is required.</string>
+    <string name="password_6">Password must be 6 characters long.</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="password_match">Confirm password doesn\'t match.</string>
+    <string name="email_required">Email is required.</string>
+    <string name="dob_req">Date of birth is required.</string>
+    <string name="name_required">Name is required.</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="enter_otp_msg">Enter the 5-digit OTP sent to your phone number</string>
+    <string name="dummmy_contact">9810198101</string>
+    <string name="resend_code_in">Resend code in %s:%s</string>
+    <string name="save">Save</string>
+    <string name="notifications">Notifications</string>
+    <string name="all_notifications">All Notifications</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="promotions_and_offers"><![CDATA[Promotions & Offers]]></string>
+    <string name="my_addresses">My Addresses</string>
+    <string name="title">Title</string>
+    <string name="address">Address</string>
+    <string name="history">History</string>
+    <string name="pickup">PICKUP</string>
+    <string name="destination">DESTINATION</string>
+    <string name="filter">Filter</string>
+    <string name="completed">Completed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="rejected">Rejected</string>
+    <string name="call_support">Call Support</string>
+    <string name="cancel_ride">Cancel Ride</string>
+</resources>

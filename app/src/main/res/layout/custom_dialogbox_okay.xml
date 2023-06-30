@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_error_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_2dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="@dimen/_16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:lineSpacingMultiplier="0.8"
+                    android:id="@+id/tv_dialog_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_24dp"
+                    android:fontFamily="@font/bold"
+                    android:text="Pick Me"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_20sp" />
+
+                <TextView
+                    android:id="@+id/tv_dialog_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8dp"
+                    android:fontFamily="@font/medium"
+                    android:text="Thank you"
+                    android:textAlignment="viewStart"
+                    android:textSize="@dimen/_16sp" />
+
+                <LinearLayout
+                    android:id="@+id/btn_view_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_44dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_24dp"
+                    android:layout_marginBottom="@dimen/_8dp"
+                    android:background="@drawable/rounded_corners_button_2"
+                    android:backgroundTint="@android:color/holo_red_light"
+                    android:gravity="center">
+
+                    <TextView
+                        android:paddingRight="@dimen/_32dp"
+                        android:paddingLeft="@dimen/_32dp"
+                        android:id="@+id/btn_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Okay"
+                        android:textAllCaps="true"
+                        android:fontFamily="@font/bold"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/_16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:visibility="gone"
+                android:layout_width="@dimen/_48dp"
+                android:layout_height="@dimen/_48dp"
+                android:layout_alignParentEnd="true"
+                android:padding="@dimen/_12dp"
+                android:src="@drawable/ic_baseline_close_24" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
